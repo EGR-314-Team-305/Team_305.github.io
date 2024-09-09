@@ -180,8 +180,7 @@ aheadle2@asu.edu
 
 **Meeting Schedule & Coordination**
 
-![image](<img width="898" alt="image" src="https://github.com/user-attachments/assets/5f508e57-867d-42f2-a497-bb3e27d5bac4">)
-
+![image](https://github.com/user-attachments/assets/5f508e57-867d-42f2-a497-bb3e27d5bac4)
 
 
 <p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
