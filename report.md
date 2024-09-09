@@ -39,7 +39,7 @@ September 8, 2024
 
 Team Folder:
 
-
+[Team 305](https://drive.google.com/drive/folders/1dzLA88jLNsgBlmBNI3v-Ub-JuR-p1YDu)
 
 <span style="text-decoration:underline;">Team Organization</span>
 
@@ -179,6 +179,8 @@ aheadle2@asu.edu
 
 
 **Meeting Schedule & Coordination**
+
+![image](<img width="898" alt="image" src="https://github.com/user-attachments/assets/5f508e57-867d-42f2-a497-bb3e27d5bac4">)
 
 
 
