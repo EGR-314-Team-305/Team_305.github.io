@@ -183,12 +183,6 @@ aheadle2@asu.edu
 ![image](https://github.com/user-attachments/assets/5f508e57-867d-42f2-a497-bb3e27d5bac4)
 
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
-
 Weekly Meeting Procedure:
 
 
@@ -270,14 +264,7 @@ In the case that some contribution or assignment is missed, the group will talk 
 
 Product 1: Embr Wave Cooling Bracelet
 
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
-
-
+![image](https://github.com/user-attachments/assets/574711ba-3d40-4db4-a4d5-fe8c69550594)
 
 
 * Search Keywords & Results Link
@@ -306,6 +293,8 @@ Product 1: Embr Wave Cooling Bracelet
     * The product should be able to operate in everyday conditions (latent)
 
 Product 2: ThermoPro TP50 
+
+![image](https://github.com/user-attachments/assets/dbf4751b-fba8-49f8-9b30-85e3d740837c)
 
 
 
