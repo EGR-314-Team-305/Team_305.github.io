@@ -21,9 +21,9 @@
 <p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
 
 
-**Embedded System Designs Project II**
+# **Embedded System Designs Project II**
 
-** Report**
+## **Report**
 
 Group 305
 
