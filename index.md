@@ -2,6 +2,8 @@
 title: Project Name
 ---
 
+[Team Report](/report.md)
+
 # Class
 
 EGR 314 - Fall 2024
