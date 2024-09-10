@@ -471,11 +471,17 @@ At the end of the brainstorming session we were able to come up with one hundred
 
 ## **Concept 1 Freezer Temperature and Humidity regulator:**
 
+
+
+
 **(Image generated with DALL-E AI)**
 
 
 
 ## **Concept 2 Cave Crawler Scout:**
+
+
+![image](https://github.com/user-attachments/assets/b8a54b09-9b54-44c0-b5df-cde759abf9f1)
 
 **(Images generated with DALL-E AI)**
 
