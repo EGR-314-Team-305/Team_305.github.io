@@ -472,7 +472,8 @@ At the end of the brainstorming session we were able to come up with one hundred
 ## **Concept 1 Freezer Temperature and Humidity regulator:**
 
 
-
+![image](https://github.com/user-attachments/assets/d5e1624a-fae7-4bfb-adb6-1ad41c29a5a0)
+![image](https://github.com/user-attachments/assets/5502ea41-8668-41e3-a5a2-49fa4cd6fb9a)
 
 **(Image generated with DALL-E AI)**
 
@@ -481,7 +482,7 @@ At the end of the brainstorming session we were able to come up with one hundred
 ## **Concept 2 Cave Crawler Scout:**
 
 
-![image](https://github.com/user-attachments/assets/b8a54b09-9b54-44c0-b5df-cde759abf9f1)
+![image](https://github.com/user-attachments/assets/e27c95ed-7cf2-4278-9806-19c9478fc200)
 
 **(Images generated with DALL-E AI)**
 
@@ -490,26 +491,8 @@ At the end of the brainstorming session we were able to come up with one hundred
 ## **Concept 3 Meat Smoker Measuring Device:**
 
 
-![image](https://github.com/user-attachments/assets/281f62e3-0088-4cce-8bd0-c9e43e48daff)
+![image](https://github.com/user-attachments/assets/77b32650-6538-456a-9c63-cdff660382da)
 
 **(Image generated with DALL-E AI)**
 
 
-
-# **Contributions:**
-
-## **Scott Hardman:**
-
-* 
-
-## **Victor Chavez:**
-
-* 
-
-## **Andrew Headley:**
-
-* 
-
-## **Derek Schow:**
-
-* 
