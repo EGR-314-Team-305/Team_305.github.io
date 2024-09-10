@@ -339,6 +339,9 @@ Product 2: ThermoPro TP50
 Product 3: Anova Culinary Sous Vide Precision Cooker
 
 
+![image](https://github.com/user-attachments/assets/eaa4f939-e9ce-4780-a019-973eea654a41)
+
+
 
 <p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
@@ -414,6 +417,9 @@ Product 4: PitmasterIQ IQ110 BBQ Temperature Regulator Kit W/ Standard Pit Adapt
     * The device does not require frequent troubleshooting or adjustments. (latent)
 
 Product 5: YoLink Smart Wireless Temperature & Humidity Sensor
+
+![images](https://github.com/user-attachments/assets/350bc87c-f78a-42b8-b267-55e29f86da54)
+
 
 
 
