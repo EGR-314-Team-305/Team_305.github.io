@@ -2,7 +2,7 @@
 
 ## **Report**
 
-Group 305
+**Group 305**
 
 Victor Chavez, Derek Schow, Andrew Headley, Scott Hardman
 
@@ -14,13 +14,13 @@ Prof. Nichols
 
 September 8, 2024
 
-Team Folder:
+**Team Folder:**
 
 [Team 305](https://drive.google.com/drive/folders/1dzLA88jLNsgBlmBNI3v-Ub-JuR-p1YDu)
 
-<span style="text-decoration:underline;">Team Organization</span>
+## Team Organization
 
-**Charter**
+### **Charter**
 
 The team will operate with the following goals throughout the semester:
 
@@ -47,11 +47,11 @@ The team will operate with the following goals throughout the semester:
     The team will prepare a formal presentation to showcase their project, explaining the problem, the development process, the technical design, and the final product. The presentation should clearly communicate the technical aspects of the solution, demonstrate how it addresses the identified real-world problem, and highlight the team’s growth in technical and collaborative skills. Tailoring the presentation to the audience will ensure that the key points are delivered effectively and comprehensively.
 
 
-**Product Mission Statement**
+### **Product Mission Statement**
 
 Our mission is to design and develop a product that aims to incorporate the use of sensors that are able to gauge the different factors in its surrounding environment and transmit that newly obtained data through a serial communication protocol, utilizing only surface mounted components. 
 
-<span style="text-decoration:underline;">User Needs, Benchmarking, and Requirements</span>
+## User Needs, Benchmarking, and Requirements
 
 **Listing and Grouping Needs**
 
