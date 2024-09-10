@@ -489,6 +489,9 @@ At the end of the brainstorming session we were able to come up with one hundred
 
 ## **Concept 3 Meat Smoker Measuring Device:**
 
+
+![image](https://github.com/user-attachments/assets/281f62e3-0088-4cce-8bd0-c9e43e48daff)
+
 **(Image generated with DALL-E AI)**
 
 
