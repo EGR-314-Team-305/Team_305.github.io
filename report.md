@@ -297,15 +297,6 @@ Product 2: ThermoPro TP50
 ![image](https://github.com/user-attachments/assets/dbf4751b-fba8-49f8-9b30-85e3d740837c)
 
 
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
-
-
-
-
 * Search Keywords & Results Link
     * Keyword: Temperature and humidity product
 
@@ -342,15 +333,6 @@ Product 3: Anova Culinary Sous Vide Precision Cooker
 ![image](https://github.com/user-attachments/assets/eaa4f939-e9ce-4780-a019-973eea654a41)
 
 
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
-
-
-
-
 * Search Keywords & Results Link
     * Keywords: Temperature and humidity cooking product
     * Results: [Link ](https://www.google.com/search?q=Temperature+and+humidity+cooking+product&sca_esv=bb2e894607922a5f&rlz=1C1ONGR_enUS1093US1094&ei=AdHYZuulEZzgkPIP767q-QY&ved=0ahUKEwirqqfZnaqIAxUcMEQIHW-XOm8Q4dUDCBA&uact=5&oq=Temperature+and+humidity+cooking+product&gs_lp=Egxnd3Mtd2l6LXNlcnAiKFRlbXBlcmF0dXJlIGFuZCBodW1pZGl0eSBjb29raW5nIHByb2R1Y3QyCBAhGKABGMMESPUdUMsKWO0acAJ4AZABAJgBb6ABuwiqAQQxMi4xuAEDyAEA-AEBmAIPoALXCMICChAAGLADGNYEGEfCAggQABgHGAgYHsICCBAAGAgYDRgewgILEAAYgAQYhgMYigXCAggQABiABBiiBMICCBAAGKIEGIkFwgIKECEYoAEYwwQYCsICBhAAGAgYHpgDAIgGAZAGCJIHBDE0LjGgB88y&sclient=gws-wiz-serp) 
@@ -379,14 +361,7 @@ Product 3: Anova Culinary Sous Vide Precision Cooker
 
 Product 4: PitmasterIQ IQ110 BBQ Temperature Regulator Kit W/ Standard Pit Adapter
 
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.png "image_tooltip")
-
-
+![image](https://github.com/user-attachments/assets/8fc9ebcf-0069-419d-8300-7c81e410496e)
 
 
 * Search Keywords & Results Link
@@ -419,16 +394,6 @@ Product 4: PitmasterIQ IQ110 BBQ Temperature Regulator Kit W/ Standard Pit Adapt
 Product 5: YoLink Smart Wireless Temperature & Humidity Sensor
 
 ![images](https://github.com/user-attachments/assets/350bc87c-f78a-42b8-b267-55e29f86da54)
-
-
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
-
-
 
 
 * Search Keywords & Results Link’
