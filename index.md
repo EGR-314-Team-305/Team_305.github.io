@@ -5,7 +5,8 @@ title: Project Name
 [Team Report](/report.md)
 
 # Checkpoint 1 Video
-![Video](https://youtu.be/BzNZRsTqQd8)
+[![image](https://github.com/user-attachments/assets/9f7633fb-e993-4c58-b517-bd5875deb1e7)](https://www.youtube.com/watch?v=BzNZRsTqQd8)
+
 
 # Class
 
