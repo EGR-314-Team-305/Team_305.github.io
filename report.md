@@ -311,7 +311,6 @@ In the case that some contribution or assignment is missed, the group will talk 
     * The device must display temperature in both Fahrenheit and Celsius (latent)
     * The device needs to be able to run for an extended time without user intervention (latent)
 
-<span style="text-decoration:underline;">Organize Statements</span>
 
 ### Consolidate Statements:
 
@@ -447,110 +446,61 @@ The team aims to achieve the project requirements by performing market research,
     * The device will conform to the appropriate safety standards.
     * The device will not harm the user in any way during operation.
 
-**Appendix C: Design Ideation**
+## **Appendix C: Design Ideation**
 
-**Process:**
+### **Process:**
 
 For the design ideation process the group began by brainstorming ideas for potential devices that could be used to monitor and somehow regulate temperature and humidity. The group encouraged each other to throw out any ideas. Ideas ranged from features we wanted to see, to potential use cases, and even extra components that we could throw in to complement the sensors and actuators that we were required to use. All the ideas were thrown onto the jamboards.
 
 At the end of the brainstorming session we were able to come up with one hundred notes of ideas and features. We then used these ideas and came up with three concept designs. Two of which assist with monitoring the environment in a cooking setting and the third has to do with monitoring underground environments such as caves. Using Dall-E 3 we generated three images of our concepts along with a description of features that accompany each concept. Below are screenshots of the jamboards and images of each concept.
 
-**Jamboard 1 (Ideas 1-50):**
+### **Jamboard 1 (Ideas 1-50):**
+
+![image](https://github.com/user-attachments/assets/30bc1b9c-4596-4022-8370-f7b314878fe1)
+
+
+### **Jamboard 2 (Ideas (51-100)**
+
+![image](https://github.com/user-attachments/assets/1f2e3ad6-c6fc-4ebe-aa07-9ef97fb36545)
+
+
+## **Grouping of best ideas and Ranking concepts**
+
+![image](https://github.com/user-attachments/assets/69cde01b-afc6-42a0-b54c-7a5cb97fabd4)
+
+
+## **Concept 1 Freezer Temperature and Humidity regulator:**
+
+**(Image generated with DALL-E AI)**
 
 
 
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+## **Concept 2 Cave Crawler Scout:**
 
-
-![alt_text](images/image10.png "image_tooltip")
-
-
-**Jamboard 2 (Ideas (51-100)**
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image11.png "image_tooltip")
-
-
-**Grouping of best ideas and Ranking concepts **
+**(Images generated with DALL-E AI)**
 
 
 
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+## **Concept 3 Meat Smoker Measuring Device:**
 
-
-![alt_text](images/image12.png "image_tooltip")
-
-
-**Concept 1 Freezer Temperature and Humidity regulator: **
+**(Image generated with DALL-E AI)**
 
 
 
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+# **Contributions:**
 
-
-![alt_text](images/image13.png "image_tooltip")
-
-
-
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image14.png "image_tooltip")
-
-
-**(_Image generated with DALL-E AI)_**
-
-
-
-**Concept 2 Cave Crawler Scout:**
-
-
-
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image15.png "image_tooltip")
-
-
-_(Images generated with DALL-E AI)_
-
-**Concept 3 Meat Smoker Measuring Device: **
-
-
-
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image16.png "image_tooltip")
-
-
-_(Image generated with DALL-E AI)_
-
-**Contributions:**
-
-**Scott Hardman:**
-
-
+## **Scott Hardman:**
 
 * 
 
-**Victor Chavez:**
-
-
+## **Victor Chavez:**
 
 * 
 
-**Andrew Headley:**
-
-
+## **Andrew Headley:**
 
 * 
 
-**Derek Schow:**
-
-
+## **Derek Schow:**
 
 * 
