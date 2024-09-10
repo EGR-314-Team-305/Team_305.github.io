@@ -115,12 +115,9 @@ vchave22@asu.edu
    <td>Discord:
 <p>
 pretty_cool_bananans
-   </td>
    <td>Email:
 <p>
 dschow@asu.edu
-   </td>
-  </tr>
   <tr>
    <td>Scott Hardman
    </td>
@@ -142,13 +139,11 @@ sahardma@asu.edu
    <td>Text: 
 <p>
 (770)-825-6299
-   </td>
    <td>Email:
 <p>
 aheadle2@asu.edu
-   </td>
   </tr>
-</table>
+<table>
 
 
 **Meeting Schedule & Coordination**
