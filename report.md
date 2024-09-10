@@ -142,7 +142,6 @@ sahardma@asu.edu
    <td>Email:
 <p>
 aheadle2@asu.edu
-  </tr>
 <table>
 
 
