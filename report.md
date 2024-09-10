@@ -24,8 +24,6 @@ September 8, 2024
 
 The team will operate with the following goals throughout the semester:
 
-
-
 1. **Work together to create a functional technical product that solves a real-world problem:**
 
     The primary goal is for the team to work together on creating a technical solution to a practical, real-world issue. This involves identifying a problem or need, brainstorming potential solutions, and then narrowing down the idea to a feasible and impactful project. The product should not only be functional but also innovative, addressing the real-world problem in a way that adds value and makes a tangible difference.
@@ -71,17 +69,17 @@ Our design aspects are grouped into six categories. These include product design
 
 For generating ideas the team first referenced the user needs and came up with ideas that met those user needs. After coming up with small basic ideas the process evolved into coming up with basic products that utilized those features. Throughout this process the team bounced off each other and added their own twist to each idea, this led to us generating a lot of ideas prior to our brainstorming process. This was important as it gave us direction during our brainstorming process. The roles for this process were relatively simple, Victor record the different ideas and made note of the top ideas, Derek came up with the top idea and led the discussion, Scott did research on different ideas and looked to find similar products on the market, and Andrew grounded each idea by making sure that we could implement the required sensors and actuators. 
 
-**Brainstorming**
+### **Brainstorming**
 
 The brainstorming process started out by creating a jamboard and coming up with different features we wanted to see in our kitchen device. After brainstorming features, we then began to brainstorm more fleshed out ideas such as how the features would work together and how a feature could trigger an actuation. We planned on brainstorming all one hundred features in one go but the team found that the ideas were being repeated or were simply dull. So collectively the team decided to split the brainstorming process over the span of 2 days. This approach definitely helped and allowed us to come up with strong ideas each day. During this process we also began to add ideas for features that could be seen in products that were not necessarily related to cooking. The team came to the conclusion that brainstorming for other products could lead us to new innovative ideas that could benefit the kitchen product we had in mind. In the end the team came up with 100 ideas.
 
-**Organization and Concepts**
+### **Organization and Concepts**
 
 After concluding the brainstorming process the team came up with three concept ideas. Those three ideas were the meat smoker measuring device, the freezer regulating device, and the rc cave crawler. Related ideas from the brainstorming session were then grouped under the concept that they best reinforced. To provide a visual aid of our different concepts the team created computer generated images and the top concept also included a detailed vector sketch of the concept at work. Derek created the vector image for our top concept, the freezer regulating device. A computer generated image of the freezer regulator also accompanied the image. Scott made a concept image for the meat smoker measuring device. Lastly Victor made a concept image for the rc cave crawler. Each of these concepts were accompanied by short descriptions of the features that would be included in each concept. To see the concept images and jamboards visit Appendix C: Design Ideation. 
 
-**Appendix A: Team Organization:**
+## **Appendix A: Team Organization:**
 
-**Communication Channels & Procedures**
+### **Communication Channels & Procedures**
 
 | Name | 1st Choice of Communication | 2nd Choice of Communication | 3rd Choice of Communication |
 |------|-----------------------------|-----------------------------|-----------------------------|
@@ -90,21 +88,21 @@ After concluding the brainstorming process the team came up with three concept i
 |Scott Hardman|Discord: rockerfrog   |Text: (480)-322-5623         |Email: sahardma@asu.edu      |
 |Andrew Headley|Discord: LittleSurvey|Text: (770)-825-6299         |Email: aheadle2@asu.edu      |
 
-**Meeting Schedule & Coordination**
+### **Meeting Schedule & Coordination**
 
 ![image](https://github.com/user-attachments/assets/5f508e57-867d-42f2-a497-bb3e27d5bac4)
 
 
-Weekly Meeting Procedure:
+### Weekly Meeting Procedure:
 
 
 
-1. **What method will you use to remind yourselves of meetings?  **We will use our group chat on Discord to remind each other of meetings and stay up to date regarding team assignments. The meeting leader will also be following a google calendar with important due dates that will be shared with the team. 
+1. **What method will you use to remind yourselves of meetings?** We will use our group chat on Discord to remind each other of meetings and stay up to date regarding team assignments. The meeting leader will also be following a google calendar with important due dates that will be shared with the team. 
 2. **How will your team go about changing or adding meeting times?** We will meet collectively and decide which times work best for the group. This can be done either through a virtual Zoom call or in-person meeting.
-3. **What's the preferred format for meetings (face-to-face or virtually)? **Both formats are equally preferred; it's a matter of what seems the most efficient. For hands-on work we will meet face to face, for writing assignments virtual meetups will suffice. 
+3. **What's the preferred format for meetings (face-to-face or virtually)?** Both formats are equally preferred; it's a matter of what seems the most efficient. For hands-on work we will meet face to face, for writing assignments virtual meetups will suffice. 
 4. **Are there any other procedures that your team feels are necessary?** No other procedures are needed for the team.
 
-**Roles & Responsibilities**
+### **Roles & Responsibilities**
 
 
 <table>
@@ -156,23 +154,23 @@ Weekly Meeting Procedure:
 
 
 1. **How often will you change project roles?** Every month there will be a role change, this will allow for everyone to experience each role once. 
-2. **How will you decide who is assigned to each role? **Understanding what goals need to be met will drive the team's decision making on who gets what role and during what month, each member can only take on a role once.
-3. **How will team members help one another meet their responsibilities? **Constant communication with one another will allow the team to come up with plans to tackle responsibilities. This means each member will always be relaying to the team what they are working on, when they are working on it, and how they will go about tackling their problem. This transparency allows everyone to be in the loop and help will be there if a problem arises. 
-4. **How will you identify and respond to situations in which the team must adjust roles and responsibilities? **The team will conduct a team meeting virtually and will go over which roles will be changed.** **
-5. **How will you track the team activities and milestones? **Through the use of a Gantt chart the team will be able to plan out a roadmap all the way to our functional prototype.
-6. **How will you assign technical responsibilities to the team members? **As a team we will discuss what is the best possible course to take so that each member is assigned a technical responsibility that they are best suited to take on. 
+2. **How will you decide who is assigned to each role?** Understanding what goals need to be met will drive the team's decision making on who gets what role and during what month, each member can only take on a role once.
+3. **How will team members help one another meet their responsibilities?** Constant communication with one another will allow the team to come up with plans to tackle responsibilities. This means each member will always be relaying to the team what they are working on, when they are working on it, and how they will go about tackling their problem. This transparency allows everyone to be in the loop and help will be there if a problem arises. 
+4. **How will you identify and respond to situations in which the team must adjust roles and responsibilities?** The team will conduct a team meeting virtually and will go over which roles will be changed.** **
+5. **How will you track the team activities and milestones?** Through the use of a Gantt chart the team will be able to plan out a roadmap all the way to our functional prototype.
+6. **How will you assign technical responsibilities to the team members?** As a team we will discuss what is the best possible course to take so that each member is assigned a technical responsibility that they are best suited to take on. 
 
-**Team Coordination and Accountability**
+### **Team Coordination and Accountability**
 
 Each team member will be notified by the assignment leader before submitting an assignment via the group text and will seek approval from each of the other team members before submitting. The same will be true with the team’s design review. In the case that a team member doesn’t have the knowledge to complete an assignment, the other team members will explain and clarify the necessary information to solve the problem until they can solve it. Transparency is something that will be encouraged in our meetings and other communication modes. If for whatever reason one team member can not complete their assigned task the remaining group members will work on the missed task together. The teammate that missed did not do their task will get warned then referred to the professor if it happens again. To make sure everyone is held accountable and each team member has to report to the group chat when they are going to work on the assignment at the time. After they have completed their portion they must again report the changes and updates they made during their time working on the assignment. 
 
-**Conflict Recognition and Resolution**
+### **Conflict Recognition and Resolution**
 
 In the case that some contribution or assignment is missed, the group will talk at the weekly meeting and discuss what can be done moving forward to resolve the problem and how to improve for later. Each team member is responsible for their portion of the project and is accountable for the expectations laid out in the charter. If a conflict arises, it should be recognized by the involved parties and worked out together as a team. A team controversy is normal and should be discussed openly to determine the best option for the project goals. If a solution is not found in a timely manner the team has agreed on a votes based system when regarding decision making or differing opinions. In the case that a specific team member is not performing all of the necessary work, the group will try to resolve the issue amongst themselves during the group meetings as well as help them to improve. If a team member repeatedly fails to meet the expectations, intervention by the professor will be needed. A pink slip will be given to them with consequences to be determined on a case-by-case basis by the professor.
 
-**Appendix B: User Needs, Benchmarking, Requirements:**
+## **Appendix B: User Needs, Benchmarking, Requirements:**
 
-<span style="text-decoration:underline;">Voice of Customer Benchmarking</span>
+### Voice of Customer Benchmarking
 
 Product 1: Embr Wave Cooling Bracelet
 
