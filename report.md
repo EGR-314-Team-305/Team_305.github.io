@@ -134,7 +134,7 @@ In the case that some contribution or assignment is missed, the group will talk 
 
 ### Voice of Customer Benchmarking
 
-Product 1: Embr Wave Cooling Bracelet
+#### Product 1: Embr Wave Cooling Bracelet
 
 ![image](https://github.com/user-attachments/assets/574711ba-3d40-4db4-a4d5-fe8c69550594)
 
@@ -143,7 +143,6 @@ Product 1: Embr Wave Cooling Bracelet
     * Keyword: Thermal regulation devices
 
         Results: [Link](https://www.google.com/search?q=temperature+regulation+devices&rlz=1C1VDKB_enUS1096US1096&oq=temperature+&gs_lcrp=EgZjaHJvbWUqBggCEEUYOzIGCAAQRRg5MgoIARAAGLEDGIAEMgYIAhBFGDsyBwgDEAAYgAQyBwgEEAAYgAQyDQgFEAAYgwEYsQMYgAQyDQgGEAAYsQMYyQMYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgATSAQkyMjAxOWowajeoAgiwAgE&sourceid=chrome&ie=UTF-8)
-
 
         Amazon: [Link](https://www.amazon.com/Embr-Wave-Thermal-Wristband-Rechargeable/dp/B09KCPGWK7/ref=sr_1_1_sspa?crid=32AX188L4TT7&dib=eyJ2IjoiMSJ9._3W9Lkalp7oKFyHKN1nYY-zAwRQagX-HyMN_0eJl5Yd6Vsw57-4fhpRABuJn1xHDQ5S0ZIaPMtuNXmPCBJNCCN2ckahZkQUEZjx2ML4vHOK5pvGfVtFm7DnE_b6wvfGaMWBVrKxgHdgETOy5TpyCqf4M7tUAQHG4MBPpe-lIr2AVQ52Wd-nzqMcIyg0Us-wr7DpBBQXLJ73JO-pFy5lEgUI3jVkeGJDy8Bn12wBTTm7Psh4h1qvG0DnvxQIEWt7B1JCwjI_JbwDQK-T0Z-v9iGssPoOtbiqoWV3x-gD50Wk.Dm5fMDUTDT0F9x8Pzbsjb8IQjcM70V2I_MuRksEoKc8&dib_tag=se&keywords=embr%2Bwave&qid=1725470905&sprefix=embr%2Bwave%2Caps%2C127&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1)
 
@@ -164,7 +163,7 @@ Product 1: Embr Wave Cooling Bracelet
     * The product needs to be able to operate when the user needs it (latent)
     * The product should be able to operate in everyday conditions (latent)
 
-Product 2: ThermoPro TP50 
+#### Product 2: ThermoPro TP50 
 
 ![image](https://github.com/user-attachments/assets/dbf4751b-fba8-49f8-9b30-85e3d740837c)
 
@@ -199,7 +198,7 @@ Product 2: ThermoPro TP50
     * The product needs to be able to measure air quality (latent)
     * The product needs to be able to withstand extreme high or low temperatures (latent)
 
-Product 3: Anova Culinary Sous Vide Precision Cooker
+#### Product 3: Anova Culinary Sous Vide Precision Cooker
 
 
 ![image](https://github.com/user-attachments/assets/eaa4f939-e9ce-4780-a019-973eea654a41)
@@ -231,7 +230,7 @@ Product 3: Anova Culinary Sous Vide Precision Cooker
     * The product needs to be able to have properly working temperature sensors (latent)
     * The product needs to be light enough to be able to use a handheld cooking device (latent)
 
-Product 4: PitmasterIQ IQ110 BBQ Temperature Regulator Kit W/ Standard Pit Adapter
+#### Product 4: PitmasterIQ IQ110 BBQ Temperature Regulator Kit W/ Standard Pit Adapter
 
 ![image](https://github.com/user-attachments/assets/8fc9ebcf-0069-419d-8300-7c81e410496e)
 
@@ -263,7 +262,7 @@ Product 4: PitmasterIQ IQ110 BBQ Temperature Regulator Kit W/ Standard Pit Adapt
     * The temperature control device offers value for money, with performance matching or exceeding expectations. (explicit)
     * The device does not require frequent troubleshooting or adjustments. (latent)
 
-Product 5: YoLink Smart Wireless Temperature & Humidity Sensor
+#### Product 5: YoLink Smart Wireless Temperature & Humidity Sensor
 
 ![images](https://github.com/user-attachments/assets/350bc87c-f78a-42b8-b267-55e29f86da54)
 
@@ -314,49 +313,27 @@ Product 5: YoLink Smart Wireless Temperature & Humidity Sensor
 
 <span style="text-decoration:underline;">Organize Statements</span>
 
-Consolidate Statements:
+### Consolidate Statements:
+
+![image](https://github.com/user-attachments/assets/e8ece65a-07af-4909-b5c6-58d7f6bde9fa)
 
 
+### Group Statements:
 
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image7.png "image_tooltip")
+![image](https://github.com/user-attachments/assets/391cbf03-0ce0-4a3b-bf0d-2054673f2ff3)
 
 
-Group Statements:
+### Rank Needs:
 
-
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image8.png "image_tooltip")
-
-
-Rank Needs:
-
-
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image9.png "image_tooltip")
-
-
-<span style="text-decoration:underline;">Compiled List:</span>
-
-Ranking system:
+#### Ranking system:
 
 *** Most important
 
 **  Somewhat important
 
-*   Less important
+\*   Less important
 
 **Cost Effectiveness: The product must be cost effective and provide value for the cost.**
-
-
 
 * The temperature control device offers value for money, with performance matching or exceeding expectations. ***
 * The device must have a long battery life ***
@@ -365,9 +342,7 @@ Ranking system:
 * The device must be sold as one standalone unit *
 * The device must be as low cost as possible *
 
-**User Friendly: The product must provide users with a positive, smooth and safe experience **
-
-
+**User Friendly: The product must provide users with a positive, smooth and safe experience**
 
 * The product must be easy and fast to install/set up ***
 * The product needs to be intuitive to operate ***
@@ -389,8 +364,6 @@ Ranking system:
 * The product needs to come in different sizes*
 
 **Reliability: The product needs to perform its function consistently and correctly.**
-
-
 
 * The product needs to be accurate and reliable ***
 * The product needs to durable and long lasting ***
@@ -416,8 +389,6 @@ Ranking system:
 
 **Wireless Connectability: The product needs to have the ability to connect to existing wireless networks and other systems.**
 
-
-
 * The device must follow rules and regulations for wireless communication ***
 * The product needs to display humidity and temperature of the environment ***
 * The product must keep a log of temperature data over time ***
@@ -430,37 +401,31 @@ Ranking system:
 * The device must be able to interface with existing automation systems if desired *
 * The product must be compatible with other commonly available products on the market. *
 
-<span style="text-decoration:underline;">Develop Requirements</span>
+### Develop Requirements
 
-Introduction
+#### Introduction
 
 For this semester’s EGR 314 project class section, a device that uses two forms of environmental sensing that is then used to influence the control of a motor. To this end, Team 305 is looking at devices that manage temperatures based on external factors like temperature, humidity, and atmospheric pressure. The actuation requirement would then be fulfilled by a motor powering a mechanism that adjusts the temperature as needed.
 
-Objectives
+#### Objectives
 
 The team aims to achieve the project requirements by performing market research, developing the skills necessary to implement sensing and actuation, and implement the chosen solution as a prototype. The end product will be something from which each team member will take away a valuable skill and potentially bring the prototype to market. With the appropriate market research, the team hopes to create something novel and useful that consumers would consider a marked improvement over other products.
 
-Stakeholders
-
-
+#### Stakeholders
 
 * Average consumers - End users who could use a temperature control device for cooking, managing medical conditions, etc.
 * Manufacturers - End users who could use a temperature control device on an industrial scale.
 * Antiquities preservationists - End users who could use a temperature control device to manage environmental factors
 * Food industry - End users who could use a temperature control device to expand their business
 
-Use Cases
-
-
+#### Use Cases
 
 * Use Case #1 - Average Consumer
     * Karen purchased the device via Amazon and uses it everyday to bring new cooking techniques to her home cooking. Being able to control the temperature of her food as it cooks helps her to achieve new flavor profiles.
 * Use Case #2 - Manufacturers
     * Mr. Winwood purchased an industrial version of the device in order to regulate the quality of the food his factory puts out. The device provides better data logging and thermal control so that his food more frequently meets quality standards.
 
-Aspects
-
-
+#### Aspects
 
 * Hardware/Product Design
     * The device will be noticeably different from existing products on the market.
