@@ -104,51 +104,13 @@ After concluding the brainstorming process the team came up with three concept i
 
 ### **Roles & Responsibilities**
 
-
-<table>
-  <tr>
-   <td>Role
-   </td>
-   <td>Description
-   </td>
-   <td>Name
-   </td>
-  </tr>
-  <tr>
-   <td>Meeting leader	
-<p>
-	
-   </td>
-   <td>Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting. Outlines possible topics for each meeting and task that must be accomplished. 
-   </td>
-   <td>Victor Chavez
-   </td>
-  </tr>
-  <tr>
-   <td>Meeting recorder	
-   </td>
-   <td>Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned.
-   </td>
-   <td>Andrew Headley
-   </td>
-  </tr>
-  <tr>
-   <td>Assignment Leader 
-   </td>
-   <td>Coordinates the team's work on a given assignment to Canvas before the due date. Also performs the final overview before the assignment is turned in. 
-   </td>
-   <td>Scott Hardman
-   </td>
-  </tr>
-  <tr>
-   <td>Project Monitor
-   </td>
-   <td>Tracks the team's progress relative to the overarching project schedule and keeps team members apprised of deadlines and project status.
-   </td>
-   <td>Derek Schow
-   </td>
-  </tr>
-</table>
+|Role       |Description                |Name                |
+|-----------|---------------------------|--------------------|
+|Meeting Leader|Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting. Outlines possible topics for each meeting and task that must be accomplished.|Victor Chavez|
+|Meeting Recorder|Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned.|Andrew Headley|
+|Assignment Leader|Coordinates the team's work on a given assignment to Canvas before the due date. Also performs the final overview before the assignment is turned in.|Scott Hardman|
+|Project Monitor|Tracks the team's progress relative to the overarching project schedule and keeps team members apprised of deadlines and project status.|Derek Schow|
+  
 
 
 
