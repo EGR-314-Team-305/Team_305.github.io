@@ -5,7 +5,7 @@ title: Project Name
 [Team Report](/report.md)
 
 # Checkpoint 1 Video
-![Video](https://www.youtube.com/watch?v=BzNZRsTqQd8)
+![Video](https://youtu.be/BzNZRsTqQd8)
 
 # Class
 
