@@ -101,16 +101,12 @@ After concluding the brainstorming process the team came up with three concept i
    <td>Discord: 
 <p>
 G0G0
-   </td>
    <td>Text: 
 <p>
 (928)-271-9230
-   </td>
    <td>Email:
 <p>
 vchave22@asu.edu
-   </td>
-  </tr>
   <tr>
    <td>Derek Schow
    </td>
@@ -128,13 +124,13 @@ dschow@asu.edu
   <tr>
    <td>Scott Hardman
    </td>
-   <td>Discord: \
+   <td>Discord: 
 rockerfrog
    </td>
-   <td>Text: \
+   <td>Text: 
 (480)-322-5623
    </td>
-   <td>Email: \
+   <td>Email: 
 sahardma@asu.edu
    </td>
   </tr>
