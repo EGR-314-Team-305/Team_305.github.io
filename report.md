@@ -83,67 +83,12 @@ After concluding the brainstorming process the team came up with three concept i
 
 **Communication Channels & Procedures**
 
-
-<table>
-  <tr>
-   <td>Name
-   </td>
-   <td>1st Choice of Communication
-   </td>
-   <td>2nd Choice of Communication
-   </td>
-   <td>3rd Choice of Communication
-   </td>
-  </tr>
-  <tr>
-   <td>Victor Chavez
-   </td>
-   <td>Discord: 
-<p>
-G0G0
-   <td>Text: 
-<p>
-(928)-271-9230
-   <td>Email:
-<p>
-vchave22@asu.edu
-  <tr>
-   <td>Derek Schow
-   </td>
-   <td>Text: (480)-589-0978
-   </td>
-   <td>Discord:
-<p>
-pretty_cool_bananans
-   <td>Email:
-<p>
-dschow@asu.edu
-  <tr>
-   <td>Scott Hardman
-   </td>
-   <td>Discord: 
-rockerfrog
-   </td>
-   <td>Text: 
-(480)-322-5623
-   </td>
-   <td>Email: 
-sahardma@asu.edu
-   </td>
-  </tr>
-  <tr>
-   <td>Andrew Headley
-   </td>
-   <td>Discord: LittleSurvey
-   </td>
-   <td>Text: 
-<p>
-(770)-825-6299
-   <td>Email:
-<p>
-aheadle2@asu.edu
-<table>
-
+| Name | 1st Choice of Communication | 2nd Choice of Communication | 3rd Choice of Communication |
+|------|-----------------------------|-----------------------------|-----------------------------|
+|Victor Chavez|Discord: G0G0         |Text: (928)-271-9230         |Email: vchave22@asu.edu      |
+|Derek Schow|Text: (480)-589-0978    |Discord: pretty_cool_bananas |Email: dschow@asu.edu        |
+|Scott Hardman|Discord: rockerfrog   |Text: (480)-322-5623         |Email: sahardma@asu.edu      |
+|Andrew Headley|Discord: LittleSurvey|Text: (770)-825-6299         |Email: aheadle2@asu.edu      |
 
 **Meeting Schedule & Coordination**
 
