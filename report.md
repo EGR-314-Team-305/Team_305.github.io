@@ -53,21 +53,21 @@ Our mission is to design and develop a product that aims to incorporate the use 
 
 ## User Needs, Benchmarking, and Requirements
 
-**Listing and Grouping Needs**
+### **Listing and Grouping Needs**
 
 During the very early stages of this class the team wanted to make something that was slightly different from a mobile weather station. Instead the team wanted to look toward making a product that was used in a cooking setting. The team wanted a product that could be used to help regulate the storage and preservation of foods or even create a device that could provide more accurate readings for something like a meat smoker or grill. So during the benchmarking process the team picked products on the market that related to cooking in some way. For our five products two were temperature sensors, two were cooking tools, and one was a product that cooled a person down which is very handy in those grilling environments. We did this so as to find needs that would relate to our future product. The team then looked through the reviews of each product and found six positive and six negative reviews. Utilizing these reviews the team was then able to create ten user needs for each product, with half of them being explicit needs and the other being latent needs. In total the team found fifty needs and grouped them into a jamboard.
 
-**Converting Needs **
+### **Converting Needs**
 
 For the process of converting the needs into specifications the team created four categories that were used to group the user needs in. The four categories included: cost effectiveness, user friendliness, reliability, and wireless connectability. After color coding and grouping the needs the team ranked the user needs in each category. This was done using a one to three star scale, with three stars being an important user need, two stars being somewhat important and one being a less important user need. The ranking the user need received was based on two factors. The first was how prevalent that user needs was in the reviews and the second was based on how broad the user need was.We wanted broad user needs so that they encompassed the more specific user needs. For example the user need that stated the device needed to be easy to install, received three stars. Whereas the user needs that stated the probe must be easy to position, received a one star rank. The team then looked at the top ranked user needs and converted those into specifications that could be measurable to see if we met the needs of the user. 
 
-**Design Aspects**
+### **Design Aspects**
 
 Our design aspects are grouped into six categories. These include product design, software/functionality, interactivity & User experience, customization, manufacturing and safety. The top aspects in each category include designing a device that is unique from existing products, making a device that will communicate with an online server via ESP 32 module, making sure the device will work with different devices, allowing the user to customize the device to meet a certain goal, making each subsystem at a reasonable cost, and lastly making sure the device is not harmful to the user in any way. The rest of the design aspects are listed in Appendix B: 
 
-<span style="text-decoration:underline;">Design Ideation</span>
+## Design Ideation
 
-**Generating Ideas**
+### **Generating Ideas**
 
 For generating ideas the team first referenced the user needs and came up with ideas that met those user needs. After coming up with small basic ideas the process evolved into coming up with basic products that utilized those features. Throughout this process the team bounced off each other and added their own twist to each idea, this led to us generating a lot of ideas prior to our brainstorming process. This was important as it gave us direction during our brainstorming process. The roles for this process were relatively simple, Victor record the different ideas and made note of the top ideas, Derek came up with the top idea and led the discussion, Scott did research on different ideas and looked to find similar products on the market, and Andrew grounded each idea by making sure that we could implement the required sensors and actuators. 
 
