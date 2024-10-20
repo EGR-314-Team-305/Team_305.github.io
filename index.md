@@ -3,7 +3,8 @@ title: Project Name
 ---
 
 [Team Report](/report.md)
-[Checkpoint 2](/checkpoint2.md)
+
+#[Checkpoint 2](/checkpoint2.md)
 
 
 # Checkpoint 1 Video
