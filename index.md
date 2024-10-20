@@ -2,7 +2,7 @@
 title: Project Name
 ---
 
-[Team Report](/report.md)
+[Checkpoint 1](/checkpoint1.md)
 
 
 [Checkpoint 2](/checkpoint2.md)
