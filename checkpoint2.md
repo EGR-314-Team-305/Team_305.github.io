@@ -17,3 +17,12 @@ October 21, 2024
 **Team Folder:**
 
 [Team 305](https://drive.google.com/drive/folders/1dzLA88jLNsgBlmBNI3v-Ub-JuR-p1YDu)
+
+## **Selected Design Concept**
+
+![image](https://raw.githubusercontent.com/schowderek/schowderek.github.io/refs/heads/main/Final%20Design%20Idea.drawio.svg)
+
+## **Updated Block Diagram**
+
+
+![image](https://raw.githubusercontent.com/schowderek/schowderek.github.io/refs/heads/main/Block%20Diagram-Team305.drawio.svg)
