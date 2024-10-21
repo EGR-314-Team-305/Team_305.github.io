@@ -63,7 +63,7 @@ The tables below display the components that each team member selected for their
 Motor Driver: (Scott Hardman)
 | Solution | Pros | Cons |
 |----------|------|------|
-| ![image](https://raw.githubusercontent.com/VictorChvz885/VictorChvz885.github.io/e742220e4acf9355206988f596c3029423ce1b4a/20-SOIC%200.295.jpg) <br>L293DD <br>[Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L293DD/585913) <br>[Link to datasheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/04/ac/22/f9/20/5d/43/a1/CD00000059.pdf/files/CD00000059.pdf/jcr:content/translations/en.CD00000059.pdf)| <ul><li>High voltage supply/load</li><li>General purpose motor driver</li><li>4.5V-36V</li><li>600mA</li><ul> | <ul><li>Most expensive option</li><li>No built in fault protection</li><ul> |
+| ![image](https://raw.githubusercontent.com/VictorChvz885/VictorChvz885.github.io/e742220e4acf9355206988f596c3029423ce1b4a/20-SOIC%200.295.jpg| width=100) <br>L293DD <br>[Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L293DD/585913) <br>[Link to datasheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/04/ac/22/f9/20/5d/43/a1/CD00000059.pdf/files/CD00000059.pdf/jcr:content/translations/en.CD00000059.pdf)| <ul><li>High voltage supply/load</li><li>General purpose motor driver</li><li>4.5V-36V</li><li>600mA</li><ul> | <ul><li>Most expensive option</li><li>No built in fault protection</li><ul> |
 
 Choice: L293DD
 Rationale: The large voltage operating margin and general purpose design makes it the ideal pick for our product because the driver needs to be able to handle up to 24V and it is not too expensive despite this. 
