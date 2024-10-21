@@ -65,7 +65,7 @@ Motor Driver: (Scott Hardman)
 
 | Solution | Pros | Cons |
 |----------|------|------|
-| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/20-SOIC%200.295.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>L293DD <br>[Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L293DD/585913)<br>[Link to datasheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/04/ac/22/f9/20/5d/43/a1/CD00000059.pdf/files/CD00000059.pdf/jcr:content/translations/en.CD00000059.pdf) | High voltage supply and load <br> General purpose motor driver <br> 4.5V-36V <br> 600mA | Most expensive option <br> No built in fault protection |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/20-SOIC%200.295.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>L293DD <br>[Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L293DD/585913)<br>[Link to datasheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/04/ac/22/f9/20/5d/43/a1/CD00000059.pdf/files/CD00000059.pdf/jcr:content/translations/en.CD00000059.pdf) | - High voltage supply and load <br> - General purpose motor driver <br> - 4.5V-36V <br> - 600mA | - Most expensive option <br> - No built in fault protection |
 
 Choice: L293DD
 
@@ -77,7 +77,7 @@ Motor: (Scott Hardman)
 
 | Solution | Pros | Cons |
 |----------|------|------|
-| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/MFG_HA40101V4-1000U-A99%20(1).jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>HA40101V4-1000U-A99 <br>[Link to product](https://www.digikey.com/en/products/detail/sunon-fans/HA40101V4-1000U-A99/6198728?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Medium%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20223376311_adg-_ad-__dev-c_ext-_prd-6198728_sig-CjwKCAjw0aS3BhA3EiwAKaD2ZV4SR-mhshkZJRApqpeEfWNnqg7gYdPNDVAJrWyka_VC8i5g6X8cFhoCoPgQAvD_BwE&gad_source=1&gclid=CjwKCAjw0aS3BhA3EiwAKaD2ZV4SR-mhshkZJRApqpeEfWNnqg7gYdPNDVAJrWyka_VC8i5g6X8cFhoCoPgQAvD_BwE) <br>[Link to datasheet](https://www.sunon.com/PROSEARCH_FILES/(D04111000G-02)-2.pdf)| <ul><li>Operating Temperature</li><li>Not a large footprint</li></li><li>Low cost and quiet</li><li>Lightweight</li><ul> | <ul><li>Relatively high voltage pull</li><li>12 volts</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/MFG_HA40101V4-1000U-A99%20(1).jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>HA40101V4-1000U-A99 <br>[Link to product](https://www.digikey.com/en/products/detail/sunon-fans/HA40101V4-1000U-A99/6198728?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Medium%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20223376311_adg-_ad-__dev-c_ext-_prd-6198728_sig-CjwKCAjw0aS3BhA3EiwAKaD2ZV4SR-mhshkZJRApqpeEfWNnqg7gYdPNDVAJrWyka_VC8i5g6X8cFhoCoPgQAvD_BwE&gad_source=1&gclid=CjwKCAjw0aS3BhA3EiwAKaD2ZV4SR-mhshkZJRApqpeEfWNnqg7gYdPNDVAJrWyka_VC8i5g6X8cFhoCoPgQAvD_BwE) <br>[Link to datasheet](https://www.sunon.com/PROSEARCH_FILES/(D04111000G-02)-2.pdf)| - Operating Temperature <br> - Not a large footprint <br> - Low cost and quiet <br> - Lightweight | - Relatively high voltage pull <br> - 12 volts |
 
 Choice: HA40101V4-1000U-A99
 
@@ -89,7 +89,7 @@ Switching Voltage Regulator (Andrew Headley)
 
 | Solution | Pros | Cons |
 |----------|------|------|
-| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/296~4200577-4~KTT~5.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>LM2575HVS <br>[Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM2575HVS-3-3-NOPB/363637) <br>[Link to datasheet](https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2575-n)| <ul><li>Output voltage (3.3v)</li><li>Simple example circuit</li><li>Wide input voltage range</li><li>1A output current</li><ul> | <ul><li>Circuit protection is needed</li><li>Outputs a set voltage</li><li>No customization</li><li>Only a buck converter</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/296~4200577-4~KTT~5.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>LM2575HVS <br>[Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM2575HVS-3-3-NOPB/363637) <br>[Link to datasheet](https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2575-n)| - Output voltage (3.3v) <br> - Simple example circuit <br> - Wide input voltage range <br> - 1A output current | - Circuit protection is needed <br> - Outputs a set voltage <br> - No customization <br> - Only a buck converter |
 
 Choice: LM2575HVS
 
@@ -101,7 +101,7 @@ Temperature Sensor (Victor Chavez)
 
 | Solution | Pros | Cons |
 |----------|------|------|
-| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/150~C04-057~SN,OA~8.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>TCN75AVOA713 <br>[Link to product](https://www.digikey.com/en/products/detail/microchip-technology/TCN75AVOA713/739450) <br>[Link to datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/21935D.pdf)| <ul><li>Temperature to digital converter</li><li>Measure from -40°C to +125°C</li><li>I2C™ Compatible</li><li>Alert pin and configurable address pins</li><ul> | <ul><li>Low measuring range</li><li>Large IC size</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/150~C04-057~SN,OA~8.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>TCN75AVOA713 <br>[Link to product](https://www.digikey.com/en/products/detail/microchip-technology/TCN75AVOA713/739450) <br>[Link to datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/21935D.pdf)| - Temperature to digital converter <br> - Measure from -40°C to +125°C <br> - I2C™ Compatible <br> - Alert pin and configurable address pins | - Low measuring range <br> - Large IC size |
 
 
 Choice: TCN75AVOA713 
@@ -114,7 +114,7 @@ Humidity Sensor (Derek Schow)
 
 | Solution | Pros | Cons |
 |----------|------|------|
-| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Pkg%20SDE06A%20(1).jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>HDC2080DMBR <br>[Link to product](https://www.digikey.com/en/products/detail/texas-instruments/HDC2080DMBR/9692560) <br>[Link to datasheet](https://www.ti.com/lit/ds/symlink/hdc2080.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1726699942311&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fhdc2080)| <ul><li>I2C Output</li><li>Interrupt Capability</li><li>Larger size 3.1mm x 3.1mm</li><li>Wide Supply voltage 1.62V - 3.6V</li><li>Least expensive</li><li>Least expensive</li>Surface Mount<ul> | <ul><li>More complicated to set up - 6 pins</li><li>Less accurate +/- 2% RH</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Pkg%20SDE06A%20(1).jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>HDC2080DMBR <br>[Link to product](https://www.digikey.com/en/products/detail/texas-instruments/HDC2080DMBR/9692560) <br>[Link to datasheet](https://www.ti.com/lit/ds/symlink/hdc2080.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1726699942311&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fhdc2080)| - I2C Output <br> - Interrupt Capability <br> - Larger size 3.1mm x 3.1mm <br> - Wide Supply voltage 1.62V - 3.6V <br> - Least expensive <br> - Surface Mount | - More complicated to set up - 6 pins <br> - Less accurate +/- 2% RH |
 
 Choice: HDC2080DMBR 
 
