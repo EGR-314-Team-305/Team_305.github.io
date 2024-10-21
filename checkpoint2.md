@@ -65,7 +65,7 @@ Motor Driver: (Scott Hardman)
 
 | Solution | Pros | Cons |
 |----------|------|------|
-| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/20-SOIC%200.295.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>L293DD <br>[Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L293DD/585913)<br>[Link to datasheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/04/ac/22/f9/20/5d/43/a1/CD00000059.pdf/files/CD00000059.pdf/jcr:content/translations/en.CD00000059.pdf) | <ul><li>High&voltage supply&and&load</li><li>General&purpose&motor&driver</li><li>4.5V-36V</li><li>600mA</li></ul> | <ul><li>Most&expensive&option</li><li>No&built&in&fault&protection</li></ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/20-SOIC%200.295.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>L293DD <br>[Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L293DD/585913)<br>[Link to datasheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/04/ac/22/f9/20/5d/43/a1/CD00000059.pdf/files/CD00000059.pdf/jcr:content/translations/en.CD00000059.pdf) | <ul><li>High&voltage&supply&and&load</li><li>General&purpose&motor&driver</li><li>4.5V-36V</li><li>600mA</li></ul> | <ul><li>Most&expensive&option</li><li>No&built&in&fault&protection</li></ul> |
 
 Choice: L293DD
 
