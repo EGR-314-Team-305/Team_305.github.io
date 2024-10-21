@@ -63,54 +63,52 @@ The tables below display the components that each team member selected for their
 Motor Driver: (Scott Hardman)
 | Solution | Pros | Cons |
 |----------|------|------|
-| ![image](https://raw.githubusercontent.com/VictorChvz885/VictorChvz885.github.io/e742220e4acf9355206988f596c3029423ce1b4a/20-SOIC%200.295.jpg) <br>L293DD <br>[Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L293DD/585913) <br>[Link to datasheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/04/ac/22/f9/20/5d/43/a1/CD00000059.pdf/files/CD00000059.pdf/jcr:content/translations/en.CD00000059.pdf)| <ul><li>High voltage supply/load</li><li>General purpose motor driver</li><li>4.5V-36V</li><li>600mA</li><ul> | <ul><li>Most expensive option</li><li>No built in fault protection</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/20-SOIC%200.295.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>L293DD <br>[Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L293DD/585913) <br>[Link to datasheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/04/ac/22/f9/20/5d/43/a1/CD00000059.pdf/files/CD00000059.pdf/jcr:content/translations/en.CD00000059.pdf)| <ul><li>High voltage supply/load</li><li>General purpose motor driver</li><li>4.5V-36V</li><li>600mA</li><ul> | <ul><li>Most expensive option</li><li>No built in fault protection</li><ul> |
 
 Choice: L293DD
+
 Rationale: The large voltage operating margin and general purpose design makes it the ideal pick for our product because the driver needs to be able to handle up to 24V and it is not too expensive despite this. 
 
 
 Motor: (Scott Hardman)
 | Solution | Pros | Cons |
 |----------|------|------|
-| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/20-SOIC%200.295.jpg?raw=true" alt="Alt Text" width="100" height="50"> <br>HA40101V4-1000U-A99 <br>[Link to product](https://www.digikey.com/en/products/detail/sunon-fans/HA40101V4-1000U-A99/6198728?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Medium%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20223376311_adg-_ad-__dev-c_ext-_prd-6198728_sig-CjwKCAjw0aS3BhA3EiwAKaD2ZV4SR-mhshkZJRApqpeEfWNnqg7gYdPNDVAJrWyka_VC8i5g6X8cFhoCoPgQAvD_BwE&gad_source=1&gclid=CjwKCAjw0aS3BhA3EiwAKaD2ZV4SR-mhshkZJRApqpeEfWNnqg7gYdPNDVAJrWyka_VC8i5g6X8cFhoCoPgQAvD_BwE) <br>[Link to datasheet](https://www.sunon.com/PROSEARCH_FILES/(D04111000G-02)-2.pdf)| <ul><li>Operating Temperature</li><li>Not a large footprint</li></li><li>Low cost and quiet</li><li>Lightweight</li><ul> | <ul><li>Relatively high voltage pull</li><li>12 volts</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/MFG_HA40101V4-1000U-A99%20(1).jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>HA40101V4-1000U-A99 <br>[Link to product](https://www.digikey.com/en/products/detail/sunon-fans/HA40101V4-1000U-A99/6198728?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Medium%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20223376311_adg-_ad-__dev-c_ext-_prd-6198728_sig-CjwKCAjw0aS3BhA3EiwAKaD2ZV4SR-mhshkZJRApqpeEfWNnqg7gYdPNDVAJrWyka_VC8i5g6X8cFhoCoPgQAvD_BwE&gad_source=1&gclid=CjwKCAjw0aS3BhA3EiwAKaD2ZV4SR-mhshkZJRApqpeEfWNnqg7gYdPNDVAJrWyka_VC8i5g6X8cFhoCoPgQAvD_BwE) <br>[Link to datasheet](https://www.sunon.com/PROSEARCH_FILES/(D04111000G-02)-2.pdf)| <ul><li>Operating Temperature</li><li>Not a large footprint</li></li><li>Low cost and quiet</li><li>Lightweight</li><ul> | <ul><li>Relatively high voltage pull</li><li>12 volts</li><ul> |
 
 Choice: HA40101V4-1000U-A99
+
 Rationale: The HA40101V4-1000U-A99 fan is just the right size. The operating voltage is high enough to work for our purposes for higher fan speeds, and it is not too expensive. It is quiet, while operating and lightweight. 
 
 
 Switching Voltage Regulator (Andrew Headley)
 | Solution | Pros | Cons |
 |----------|------|------|
-| ![image](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2472/20-SOIC%200.295.jpg) <br>LM2575HVS <br>[Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM2575HVS-3-3-NOPB/363637) <br>[Link to datasheet](https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2575-n)| <ul><li>Output voltage (3.3v)</li><li>Simple example circuit</li><li>Wide input voltage range</li><li>1A output current</li><ul> | <ul><li>Circuit protection is needed</li><li>Outputs a set voltage</li><li>No customization</li><li>Only a buck converter</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/296~4200577-4~KTT~5.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>LM2575HVS <br>[Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM2575HVS-3-3-NOPB/363637) <br>[Link to datasheet](https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2575-n)| <ul><li>Output voltage (3.3v)</li><li>Simple example circuit</li><li>Wide input voltage range</li><li>1A output current</li><ul> | <ul><li>Circuit protection is needed</li><li>Outputs a set voltage</li><li>No customization</li><li>Only a buck converter</li><ul> |
 
 Choice: LM2575HVS
+
 Rationale: Even though the output voltage is fixed, having a simpler example circuit to follow reduces the points of failure so debugging and repairs can be addressed more quickly. Additionally, the wide voltage input will allow the team to offset any disadvantages from the LM2575 being only a buck converter. There is also a set 5V output version that can be used for powering other subsystems.
 
 
 Temperature Sensor (Victor Chavez)
 | Solution | Pros | Cons |
 |----------|------|------|
-| ![image](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2472/20-SOIC%200.295.jpg) <br>TCN75AVOA713 <br>[Link to product](https://www.digikey.com/en/products/detail/microchip-technology/TCN75AVOA713/739450) <br>[Link to datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/21935D.pdf)| <ul><li>Temperature to digital converter</li><li>Measure from -40°C to +125°C</li><li>I2C™ Compatible</li><li>Alert pin and configurable address pins</li><ul> | <ul><li>Low measuring range</li><li>Large IC size</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/150~C04-057~SN,OA~8.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>TCN75AVOA713 <br>[Link to product](https://www.digikey.com/en/products/detail/microchip-technology/TCN75AVOA713/739450) <br>[Link to datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/21935D.pdf)| <ul><li>Temperature to digital converter</li><li>Measure from -40°C to +125°C</li><li>I2C™ Compatible</li><li>Alert pin and configurable address pins</li><ul> | <ul><li>Low measuring range</li><li>Large IC size</li><ul> |
 
 
 Choice: TCN75AVOA713 
+
 Rationale: Microchip’s TCN75AVOA13 might have a smaller range in terms of measuring temperature, however, the smaller accuracy error makes it more suitable for our application. We also won’t be needing the extra -15 degrees that the DS1775R+T&R offers as most freezers operate at around 0 to 10 degrees fahrenheit. Also the TCN75AVOA13 has a configurable address which will be useful since we are connecting four devices into one I2C serial bus. The bigger footprint also will make it easier to work with during the PCB assembly process. Lastly the TCN75AVOA13 has configurable alert pins if the temperature it senses goes above or below its set threshold, which is also configurable.
 
 
 Humidity Sensor (Derek Schow)
 | Solution | Pros | Cons |
 |----------|------|------|
-| ![image](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2472/20-SOIC%200.295.jpg) <br>HDC2080DMBR <br>[Link to product](https://www.digikey.com/en/products/detail/texas-instruments/HDC2080DMBR/9692560) <br>[Link to datasheet](https://www.ti.com/lit/ds/symlink/hdc2080.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1726699942311&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fhdc2080)| <ul><li>I2C Output</li><li>Interrupt Capability</li><li>Larger size 3.1mm x 3.1mm</li><li>Wide Supply voltage 1.62V - 3.6V</li><li>Least expensive</li><li>Least expensive</li>Surface Mount<ul> | <ul><li>More complicated to set up - 6 pins</li><li>Less accurate +/- 2% RH</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Pkg%20SDE06A%20(1).jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>HDC2080DMBR <br>[Link to product](https://www.digikey.com/en/products/detail/texas-instruments/HDC2080DMBR/9692560) <br>[Link to datasheet](https://www.ti.com/lit/ds/symlink/hdc2080.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1726699942311&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fhdc2080)| <ul><li>I2C Output</li><li>Interrupt Capability</li><li>Larger size 3.1mm x 3.1mm</li><li>Wide Supply voltage 1.62V - 3.6V</li><li>Least expensive</li><li>Least expensive</li>Surface Mount<ul> | <ul><li>More complicated to set up - 6 pins</li><li>Less accurate +/- 2% RH</li><ul> |
 
 Choice: HDC2080DMBR 
+
 Rationale: With more pins and capability we will have more control over exactly how we use the device. It is the least expensive of the options, and also has a small package size without being too small to solder. It can withstand the low temperatures inside of a freezer or fridge. While it is slightly less accurate than the other choices, 2% compared to 1.8% is a small enough difference that it will not affect the functionality of the end product. The datasheet is also more detailed with some example configurations.
-
-
-
-
-
-
-
 
 
 ### **Power Budget Table**
@@ -186,7 +184,7 @@ The table detailing the three options the team considered is located in Appendix
 
 ### **Team Schematic**
 
-![image](
+<img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Team%20Sche.jpg?raw=true" alt="Alt Text" width="800" height="750"> 
 
 ### **Functionality/Decision Making**
 
@@ -199,7 +197,6 @@ For the schematics the team deliberately created simple circuits for each of the
 
 ![image](https://raw.githubusercontent.com/schowderek/schowderek.github.io/refs/heads/main/Software-Proposal-Team305.drawio.svg)
 
-
 ### **Functionality/Decision Making**
 
 This diagram displays the logical behavior of the software in our microcontroller for this project. The five key components include the temperature sensor, humidity sensor, fans, display, and the wifi module. The temperature and humidity sensors work in tandem to periodically collect data from inside the freezer. The microcontroller requests this data at set intervals, analyzing the conditions to determine whether the humidity levels are too high in relation to the current temperature. If the humidity exceeds the threshold, the software triggers the fan to circulate cold air within the freezer. This forms the core logic of the regulator’s functionality. 
@@ -210,12 +207,85 @@ Additionally, the system’s display and communication features, the OLED screen
 
 ### **Completed Component Selection Tables**
 
+Motor Driver: (Scott Hardman)
+| Solution | Pros | Cons |
+|----------|------|------|
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/20-SOIC%200.295.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>L293DD <br>[Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L293DD/585913) <br>[Link to datasheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/04/ac/22/f9/20/5d/43/a1/CD00000059.pdf/files/CD00000059.pdf/jcr:content/translations/en.CD00000059.pdf)| <ul><li>High voltage supply/load</li><li>General purpose motor driver</li><li>4.5V-36V</li><li>600mA</li><ul> | <ul><li>Most expensive option</li><li>No built in fault protection</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Scott%202.1.jpg?raw=true" alt="Alt Text" width="125" height="150"><br>IFX9201SGAUMA1 <br>[Link to product](https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SGAUMA1/5415542) <br>[Link to datasheet](https://www.infineon.com/dgdl/Infineon-IFX9201SG-DS-v01_01-EN.pdf?fileId=5546d4624cb7f111014d2e8916795dea&ack=t)| <ul><li>High voltage supply/load</li><li>General purpose motor driver</li><li>5V-36V</li></li><li>6 amps</li><li>Built in fault protection</li><ul> | <ul><li>Middle cost option</li><li>Large ground plane makes soldering more difficult</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Scott%203.1.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>TC646BEOA713 <br>[Link to product](https://www.digikey.com/en/products/detail/microchip-technology/TC646BEOA713/9955326?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Supplier_Focus%20Supplier&utm_term=&utm_content=&utm_id=go_cmp-20243063242_adg-_ad-__dev-c_ext-_prd-9955326_sig-Cj0KCQjw9Km3BhDjARIsAGUb4nyeT5_pXL9PsXoUC6IBdMf3kG0my9ioLBf2w7cxlhfhvE_Ft6ZS6pYaAsB6EALw_wcB&gad_source=1&gclid=Cj0KCQjw9Km3BhDjARIsAGUb4nyeT5_pXL9PsXoUC6IBdMf3kG0my9ioLBf2w7cxlhfhvE_Ft6ZS6pYaAsB6EALw_wcB) <br>[Link to datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/21755C.pdf)| <ul><li>Meant for driving fans</li><li>Low cost option</li><li>Low pin count for easier installation</li><ul> | <ul><li>Low voltage supply/load</li><li>3V-5.5V</li><li>No built in fault protection</li><li><li>No stated output current</li></li><ul> |
+
+Choice: L293DD
+
+Rationale: The large voltage operating margin and general purpose design makes it the ideal pick for our product because the driver needs to be able to handle up to 24V and it is not too expensive despite this. 
+
+
+Motor: (Scott Hardman)
+| Solution | Pros | Cons |
+|----------|------|------|
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Scott%201.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>4468 FAN AXIAL 30X8MM 5VDC<br>[Link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4468/11587354?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Medium%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20223376311_adg-_ad-__dev-c_ext-_prd-11587354_sig-CjwKCAjw0aS3BhA3EiwAKaD2ZQqMSqsdQ4CdTnbOi8NRRPZnsqG5jWqjvZvPzKGZCTCa3Y-oa1mqaRoCkT4QAvD_BwE&gad_source=1&gclid=CjwKCAjw0aS3BhA3EiwAKaD2ZQqMSqsdQ4CdTnbOi8NRRPZnsqG5jWqjvZvPzKGZCTCa3Y-oa1mqaRoCkT4QAvD_BwE) <br>[Link to datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/212/4468_Web.pdf?_gl=1*qlsxtd*_up*MQ..&gclid=CjwKCAjw0aS3BhA3EiwAKaD2ZQqMSqsdQ4CdTnbOi8NRRPZnsqG5jWqjvZvPzKGZCTCa3Y-oa1mqaRoCkT4QAvD_BwE)| <ul><li>Small Size</li><li>Low cost</li><ul> | <ul><li>No Operating Temperature stated</li><li>Low operating voltage 5v</li><li>May be too small to be practical</li><li>Datasheet doesn’t have a lot of information</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/MFG_HA40101V4-1000U-A99%20(1).jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>HA40101V4-1000U-A99 <br>[Link to product](https://www.digikey.com/en/products/detail/sunon-fans/HA40101V4-1000U-A99/6198728?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Medium%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20223376311_adg-_ad-__dev-c_ext-_prd-6198728_sig-CjwKCAjw0aS3BhA3EiwAKaD2ZV4SR-mhshkZJRApqpeEfWNnqg7gYdPNDVAJrWyka_VC8i5g6X8cFhoCoPgQAvD_BwE&gad_source=1&gclid=CjwKCAjw0aS3BhA3EiwAKaD2ZV4SR-mhshkZJRApqpeEfWNnqg7gYdPNDVAJrWyka_VC8i5g6X8cFhoCoPgQAvD_BwE) <br>[Link to datasheet](https://www.sunon.com/PROSEARCH_FILES/(D04111000G-02)-2.pdf)| <ul><li>Operating Temperature</li><li>Not a large footprint</li></li><li>Low cost and quiet</li><li>Lightweight</li><ul> | <ul><li>Relatively high voltage pull</li><li>12 volts</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Scott%202.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>RBM7530B2FAN BLOWER 75X30MM <br>[Link to product](https://www.digikey.com/en/products/detail/pelonis-technologies,-inc./RBM7530B2/16609370?utm_adgroup=General&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_DK%2BSupplier_Pelonis%20Technologies%2C%20INC.&utm_term=&utm_content=General&utm_id=go_cmp-18024309031_adg-139617000666_ad-616203479477_pla-293946777986_dev-c_ext-_prd-16609370_sig-Cj0KCQjw9Km3BhDjARIsAGUb4nxxVvVf68VIX5wzvaRzQtGaP05Ll08clxhS55jL5dmIhNzn3z3VXJkaAg8JEALw_wcB&gad_source=1&gclid=Cj0KCQjw9Km3BhDjARIsAGUb4nxxVvVf68VIX5wzvaRzQtGaP05Ll08clxhS55jL5dmIhNzn3z3VXJkaAg8JEALw_wcB) <br>[Link to datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2605/RB7530%20Series.pdf?_gl=1*ey6qgz*_up*MQ..&gclid=Cj0KCQjw9Km3BhDjARIsAGUb4nxxVvVf68VIX5wzvaRzQtGaP05Ll08clxhS55jL5dmIhNzn3z3VXJkaAg8JEALw_wcB)| <ul><li>High voltage option</li><li>24 volts</li><ul> | <ul><li>Large Size</li><li>Loud</li><li>Expensive</li><li>Probably heavy, not specified in datasheet</li><ul> |
+
+Choice: HA40101V4-1000U-A99
+
+Rationale: Option 1 is too small, option 3 is too large, and option 2 is just right. The operating voltage is high enough to work for our purposes for higher fan speeds, and it is not too expensive. Option 2 is quiet, while option 3 is very loud. Option 2 is lightweight and small, making for more options for where to place the fan, while option 3 is bulky and probably heavier. 
+
+
+Switching Voltage Regulator (Andrew Headley)
+| Solution | Pros | Cons |
+|----------|------|------|
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/296~4200577-4~KTT~5.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>LM2575HVS <br>[Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM2575HVS-3-3-NOPB/363637) <br>[Link to datasheet](https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2575-n)| <ul><li>Output voltage (3.3v)</li><li>Simple example circuit</li><li>Wide input voltage range</li><li>1A output current</li><ul> | <ul><li>Circuit protection is needed</li><li>Outputs a set voltage</li><li>No customization</li><li>Only a buck converter</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Andrew%202.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>LM2675MX<br>[Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM2675MX-3-3-NOPB/366907) <br>[Link to datasheet](https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2675)| <ul><li>Output voltage (3.3V)</li><li>Datasheet has example circuit</li><li>Wide input voltage range (6.5V-40V)</li><li>1A output current</li><ul> | <ul><li>8 pins to solder</li><li>Doesn’t have heastsink</li><li>Output voltage is fixed</li><li>Only a buck converter</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Andrew%203.jpg?raw=true" alt="Alt Text" width="125" height="150"><br>LM75BDP118 <br>[Link to product](https://www.digikey.com/en/products/detail/nxp-usa-inc/LM75BDP-118/2075977) <br>[Link to datasheet](https://www.nxp.com/docs/en/data-sheet/LM75B.pdf)| <ul><li>2C-bus interface with up to 8 devices on the same bus</li><li>Power supply range from 2.8 V to 5.5 V</li><li>Temperatures range from 55 C to +125 C</li><li>Accuracy of:  ±2.0°C</li><ul>  | <ul><li>Has a higher accuracy error with a ±3.0°C at higher and lower temperatures</li><li>Fairly large footprint</li><li>Recommends components to filter out noise</li><ul> |
+
+Choice: LM2575HVS
+
+Rationale: Even though the output voltage is fixed, having a simpler example circuit to follow reduces the points of failure so debugging and repairs can be addressed more quickly. Additionally, the wide voltage input will allow the team to offset any disadvantages from the LM2575 being only a buck converter. There is also a set 5V output version that can be used for powering other subsystems.
+
+
+Temperature Sensor (Victor Chavez)
+| Solution | Pros | Cons |
+|----------|------|------|
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/150~C04-057~SN,OA~8.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>TCN75AVOA713 <br>[Link to product](https://www.digikey.com/en/products/detail/microchip-technology/TCN75AVOA713/739450) <br>[Link to datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/21935D.pdf)| <ul><li>Temperature to digital converter</li><li>Measure from -40°C to +125°C</li><li>I2C™ Compatible</li><li>Alert pin and configurable address pins</li><ul> | <ul><li>Low measuring range</li><li>Large IC size</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Victor%202.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>DS1775R+T&R<br>[Link to product](https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/DS1775R-T-R/1018006) <br>[Link to datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/DS1775.pdf)| <ul><li>I2C Output</li><li>Measures temperatures from -55°C to +125°C with a ±2.0°C accuracy</li><li>Operating Voltage Range: 2.7V to 5.5V</li><li>Small footprint</li><li>Surface Mount</li><ul> | <ul><li>Has higher accuracy error</li><li>Doesn’t have configurable address</li><li>High cost</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Victor%203.jpg?raw=true" alt="Alt Text" width="125" height="150"><br>LM75BDP118 <br>[Link to product](https://www.digikey.com/en/products/detail/nxp-usa-inc/LM75BDP-118/2075977) <br>[Link to datasheet](https://www.nxp.com/docs/en/data-sheet/LM75B.pdf)| <ul><li>2C-bus interface with up to 8 devices on the same bus</li><li>Power supply range from 2.8 V to 5.5 V</li><li>Temperatures range from 55 C to +125 C</li><li>Accuracy of:  ±2.0°C</li><ul>  | <ul><li>Has a higher accuracy error with a ±3.0°C at higher and lower temperatures</li><li>Fairly large footprint</li><li>Recommends components to filter out noise</li><ul> |
+
+Choice: TCN75AVOA713 
+
+Rationale: Microchip’s TCN75AVOA13 might have a smaller range in terms of measuring temperature, however, the smaller accuracy error makes it more suitable for our application. We also won’t be needing the extra -15 degrees that the DS1775R+T&R offers as most freezers operate at around 0 to 10 degrees fahrenheit. Also the TCN75AVOA13 has a configurable address which will be useful since we are connecting four devices into one I2C serial bus. The bigger footprint also will make it easier to work with during the PCB assembly process. Lastly the TCN75AVOA13 has configurable alert pins if the temperature it senses goes above or below its set threshold, which is also configurable. 
+
+
+Humidity Sensor (Derek Schow)
+| Solution | Pros | Cons |
+|----------|------|------|
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/FrFr.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>SHT40I-AD1B-R3 <br>[Link to product](https://www.digikey.com/en/products/detail/sensirion-ag/SHT40I-AD1B-R3/15792545) <br>[Link to datasheet](https://sensirion.com/media/documents/1D662E57/661CD1C1/HT_DS_Datasheet_SHT4xI-Digital.pdf)| <ul><li>I2C Output</li><li>Only four pins</li><li>Accurate up to ±1.8% RH</li><li>Wide Supply voltage 2.3V - 5.5V</li><li>Waterproof</li><li>Works Down to -40C</li><li>Surface Mount</li><ul> | <ul><li>Very small 1.5 mm x 1.5 mm</li><li>Somewhat expensive for 1 tiny part</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Derek%201Fr.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>SHT45-AD1F-R2<br>[Link to product](https://www.digikey.com/en/products/detail/sensirion-ag/SHT45-AD1F-R2/17180856) <br>[Link to datasheet](https://sensirion.com/media/documents/1D662E57/661CD1C1/HT_DS_Datasheet_SHT4xI-Digital.pdf)| <ul><li>I2C Output</li><li>Only four pins</li><li>Accurate up to ±1.8% RH</li><li>Waterproof</li><li>Works Down to -40C</li><li>Surface Mount</li><ul>  | <ul><li>More narrow voltage range (1.08 V - 3.6V)</li><li>Much more expensive</li><li>Very small 1.5 mm - 1.5 mm</li><ul> |
+| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Pkg%20SDE06A%20(1).jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>HDC2080DMBR <br>[Link to product](https://www.digikey.com/en/products/detail/texas-instruments/HDC2080DMBR/9692560) <br>[Link to datasheet](https://www.ti.com/lit/ds/symlink/hdc2080.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1726699942311&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fhdc2080)| <ul><li>I2C Output</li><li>Interrupt Capability</li><li>Larger size 3.1mm x 3.1mm</li><li>Wide Supply voltage 1.62V - 3.6V</li><li>Least expensive</li><li>Surface Mount</li><ul> | <ul><li>More complicated to set up - 6 pins</li><li>Less accurate +/- 2% RH</li><ul> |
+
+Choice: HDC2080DMBR 
+
+Rationale: With more pins and capability we will have more control over exactly how we use the device. It is the least expensive of the options, and also has a small package size without being too small to solder. It can withstand the low temperatures inside of a freezer or fridge. While it is slightly less accurate than the other choices, 2% compared to 1.8% is a small enough difference that it will not affect the functionality of the end product. The datasheet is also more detailed with some example configurations. 
+
 
 ## **Appendix B: Microcontroller Selection**
 
 ### **Microcontroller Selection Tables**
 
+![image](https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Micro%201.jpg?raw=true)
+
+![image](https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Micro%202.jpg?raw=true)
+
+![image](https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Micro%203.jpg?raw=true)
+
+![image](https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Micro%204.jpg?raw=true)
+
+Choice: PIC16F18124
+
+Rationale: The larger layout and more package options gives us more options and flexibility when designing our pc boards. With more input/output pins, we can connect more subsystems which is preferred to allow the microcontroller to handle multiple subsystems. Option 1 also includes a better package type in TSSOP rather than DFN. The larger lead size makes it easier to solder, while the SOIC package is available for all options, the best option is to use TSSOP in case we need to optimize for space. We will likely use the SOIC package however because of the wider pin size making for easier soldering. With all this in mind, the difference between our three microcontrollers is small but the pin count in option 1 is the best choice for multiple subsystems.
+
 
 ## **Appendix C: Hardware Proposal**
 
 ### **Bill of Materials**
+
+![image](https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Bill%20of%20Materials.png?raw=true)
