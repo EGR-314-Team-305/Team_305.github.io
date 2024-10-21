@@ -64,3 +64,63 @@ Motor Driver: (Scott Hardman)
 
 
 
+
+
+
+
+
+### **Power Budget Table**
+
+A. List ALL major components (active devices, integrated circuits, etc.) except for power sources, voltage regulators, resistors, capacitors, or passive elements
+| Component Name      | Part Number           | Supply<br>Voltage<br>Range | # | Absolute<br>Maximum<br>Current (mA) | Total<br>Current<br>(mA) | Unit |
+| ------------------- | --------------------- | -------------------------- | - | ----------------------------------- | ------------------------ | ---- |
+| Fan Motor           | HA40101V4-1000U-A99   | 12V                        | 1 | 37                                  | 37                       | mA   |
+| PIC Microcontroller | PIC16F18124T-I/SL<br> | 3.3V                       | 1 | 0.048                               | 0.048                    | mA   |
+| Humidity Sensor     | HDC2080DMBR           | 3.3V                       | 1 | 0.89                                | 0.89                     | mA   |
+| Temperature Sensor  | TCN75AVOA713          | 3.3V                       | 1 | 0.5                                 | 0.5                      | mA   |
+| Motor Driver        | AMT49400GLKATR<br>    | 3.3V-12V                   | 1 | 5                                   | 5                        | mA   |
+| ESP 32              | (full part number)    | +1.8 - 3.3V                | 1 | 40                                  | 40                       | mA   |
+|                     |                       |                            |   |                                     |                          |
+
+
+"B. Assign each major component above to ONE power rail below. Try to minimize the number of different power rails in the design. 
+Add additional power rails or change the power rail voltages if needed."							
+| +12V Input                     | Component Name                                 | Part Number         | Supply<br>Voltage<br>Range | # | Absolute<br>Maximum<br>Current (mA) | Total<br>Current<br>(mA) | Unit |
+| ------------------------------ | ---------------------------------------------- | ------------------- | -------------------------- | - | ----------------------------------- | ------------------------ | ---- |
+|                                | Fan Motor                                      | HA40101V4-1000U-A99 | 12V                        | 1 | 37                                  | 37                       | mA   |
+|                                | Motor Driver                                   | AMT49400GLKATR<br>  | 3.3V-12V                   | 1 | 5                                   | 5                        | mA   |
+|                                | Subtotal                                       | 42                  | mA                         |
+|                                | Safety Margin                                  | 25%                 |                            |
+|                                | Total Current Required on +12V Rail            | 52.5                | mA                         |
+|                                |                                                |                     |                            |   |                                     |                          |      |
+| c1. Regulator or Source Choice | +12V Wall Supply                               |                     | 12                         | 1 | 2500                                | 2500                     | mA   |
+|                                | Total Remaining Current Available on +12V Rail | 2447.5              | mA                         |
+
+| +3.3V Power Rail               | Component Name                                 | Part Number           | Supply<br>Voltage<br>Range | # | Absolute<br>Maximum<br>Current (mA) | Total<br>Current<br>(mA) | Unit |
+| ------------------------------ | ---------------------------------------------- | --------------------- | -------------------------- | - | ----------------------------------- | ------------------------ | ---- |
+|                                | PIC Microcontroller                            | PIC16F18124T-I/SL<br> | 3.3V                       | 1 | 0.048                               | 350                      | mA   |
+|                                | Humidity Sensor                                | HDC2080DMBR           | 3.3V                       | 1 | 0.89                                | 0.89                     | mA   |
+|                                | Temperature Sensor                             | TCN75AVOA713          | 3.3V                       | 1 | 0.5                                 | 0.5                      | mA   |
+|                                | Motor Driver                                   | AMT49400GLKATR<br>    | 3.3V-12V                   | 1 | 5                                   | 5                        | mA   |
+|                                | ESP 32                                         | (full part number)    | +1.8 - 3.3V                | 1 | 40                                  | 40                       | mA   |
+|                                | Subtotal                                       | 356.39                | mA                         |
+|                                | Safety Margin                                  | 25%                   |                            |
+|                                | Total Current Required on +3.3V Rail           | 445.4875              | mA                         |
+|                                |                                                |                       |                            |   |                                     |                          |      |
+| c4. Regulator or Source Choice | +3.3V switching voltage regulator              | LM2575                | +3.3V                      | 1 | 1000                                | 1000                     | mA   |
+|                                | Total Remaining Current Available on 3.3V Rail | 554.5125              | mA                         |
+
+
+C. Select a specific external power source (wall supply or battery) for your system, and confirm that it can supply all of the regulators for all of the power rails simultaneously. If you need multiple power sources, list each separately below and indicate which regulators will be connected to each supply. Confirm that the Total Remaining Current Available on each power source below is not negative.	
+
+| External Power Source 1                          | Component Name                                               | Part Number        | Supply<br>Voltage<br>Range | Output Voltage | Absolute<br>Maximum<br>Current (mA) | Total<br>Current<br>(mA) | Unit |
+| ------------------------------------------------ | ------------------------------------------------------------ | ------------------ | -------------------------- | -------------- | ----------------------------------- | ------------------------ | ---- |
+| Power Source 1 Selection                         | Plug-in Wall Supply                                          | (full part number) | 110VAC                     | +12V           | 2500                                | 2500                     | mA   |
+|                                                  |                                                              |                    |                            |                |                                     |                          |      |
+| Power Rails Connected to External Power Source 1 | +12V supply                                                  |                    | +12V                       | 1              | 1000                                | 1000                     | mA   |
+| +3.3V regulator                                  | LM2575                                                       | +3.3V              | 1                          | 1000           | 1000                                | mA                       |
+|                                                  | Total Remaining Current Available on External Power Source 1 | 500                | mA                         |
+
+
+Based on our power budget, we have determined that our system can be completely powered by a simple wall mounted DC supply with plenty of power to spare. All the components that were selected use less very low current at a relatively low voltage of 3.3V. The team was able to use this budget to plan for the supply that we would use. After this first iteration, the team would likely be able to update the design to operate on batteries for convenience.
+
