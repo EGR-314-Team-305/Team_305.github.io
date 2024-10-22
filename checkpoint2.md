@@ -65,7 +65,7 @@ Motor Driver: (Scott Hardman)
 
 | Solution | Pros | Cons |
 |----------|------|------|
-| <img src="https://github.com/Rockerfrog/Rockerfrog.github.io/blob/main/620%3B-10SOIC-EP-3%2C9%3B-LK%3B-10.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>AMT49400GLKATR <br>[Link to product](https://www.digikey.com/en/products/detail/allegro-microsystems/AMT49400GLKATR/10146667)<br>[Link to datasheet](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.allegromicro.com/-/media/Files/Datasheets/AMT49400-Datasheet.ashx) | - High voltage supply and load <br> - General purpose motor driver <br> - 4.5V-36V <br> - 600mA | - Most expensive option <br> - No built in fault protection |
+| <img src="https://github.com/Rockerfrog/Rockerfrog.github.io/blob/main/620%3B-10SOIC-EP-3%2C9%3B-LK%3B-10.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>AMT49400GLKATR <br>[Link to product](https://www.digikey.com/en/products/detail/allegro-microsystems/AMT49400GLKATR/10146667)<br>[Link to datasheet](https://www.allegromicro.com/-/media/Files/Datasheets/AMT49400-Datasheet.ashx) | - High voltage supply and load <br> - General purpose motor driver <br> - 4.5V-36V <br> - 600mA | - Most expensive option <br> - No built in fault protection |
 
 Choice: L293DD
 
