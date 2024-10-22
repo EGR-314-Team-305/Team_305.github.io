@@ -65,11 +65,11 @@ Motor Driver: (Scott Hardman)
 
 | Solution | Pros | Cons |
 |----------|------|------|
-| <img src="https://github.com/Rockerfrog/Rockerfrog.github.io/blob/main/620%3B-10SOIC-EP-3%2C9%3B-LK%3B-10.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>AMT49400GLKATR <br>[Link to product](https://www.digikey.com/en/products/detail/allegro-microsystems/AMT49400GLKATR/10146667)<br>[Link to datasheet](https://www.allegromicro.com/-/media/Files/Datasheets/AMT49400-Datasheet.ashx) | - High voltage supply and load <br> - General purpose motor driver <br> - 4.5V-36V <br> - 600mA | - Most expensive option <br> - No built in fault protection |
+| <img src="https://github.com/Rockerfrog/Rockerfrog.github.io/blob/main/620%3B-10SOIC-EP-3%2C9%3B-LK%3B-10.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>AMT49400GLKATR <br>[Link to product](https://www.digikey.com/en/products/detail/allegro-microsystems/AMT49400GLKATR/10146667)<br>[Link to datasheet](https://www.allegromicro.com/-/media/Files/Datasheets/AMT49400-Datasheet.ashx) | - High voltage supply and load <br> - Motor Driver Power MOSFET I2C 10-SOIC <br> - 0.3V-20V <br> - 2A Output Current | - Most expensive option <br> - Only operates one fan |
 
-Choice: L293DD
+Choice: AMT49400GLKATR
 
-Rationale: The large voltage operating margin and general purpose design makes it the ideal pick for our product because the driver needs to be able to handle up to 24V and it is not too expensive despite this. 
+Rationale: The large voltage operating margin and general purpose design makes it the ideal pick for our product because the driver needs to be able to handle up to 12V and it is not too expensive despite this. 
 
 
 Motor: (Scott Hardman)
