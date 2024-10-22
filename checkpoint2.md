@@ -207,7 +207,7 @@ For the schematics the team deliberately created simple circuits for each of the
 
 ## **Software Proposal**
 
-![image](https://raw.githubusercontent.com/schowderek/schowderek.github.io/refs/heads/main/Software-Proposal-Team305.drawio.svg)
+![image](https://raw.githubusercontent.com/schowderek/schowderek.github.io/refs/heads/main/Software-Proposal-Team305(1).drawio.svg)
 
 ### **Functionality/Decision Making**
 
