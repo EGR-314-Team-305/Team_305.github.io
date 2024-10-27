@@ -40,11 +40,11 @@ September 9, 2024
 
 * [Software Proposal](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#software-proposal)
 
-* [Appendix A: ](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#appendix-a-team-organization)
+* [Appendix A: Team Organization](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#appendix-a-team-organization)
 
-* [Appendix B: ](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#appendix-b-user-needs-benchmarking-requirements)
+* [Appendix B: User Needs Benchmarking Requirements](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#appendix-b-user-needs-benchmarking-requirements)
 
-* [Appendix C: ](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#appendix-c-design-ideation)
+* [Appendix C: Design Ideation](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#appendix-c-design-ideation)
 
 * [Appendix D: Complete Component Selection](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#appendix-d-component-selection)
 
