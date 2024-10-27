@@ -34,7 +34,7 @@ October 21, 2024
 
 * [Software Proposal](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#software-proposal)
 
-* [Appendix A: Complete cComponent Selection](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#appendix-a-component-selection)
+* [Appendix A: Complete Component Selection](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#appendix-a-component-selection)
 
 * [Appendix B: Microcontroller Selection Table](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#appendix-b-microcontroller-selection)
 
