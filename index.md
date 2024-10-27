@@ -1,6 +1,8 @@
 ---
 title: Project Name
 ---
+[Full Report](/full_report.md)
+
 
 [Checkpoint 1](/checkpoint1.md)
 
