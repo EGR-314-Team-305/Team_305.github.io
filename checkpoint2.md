@@ -18,6 +18,29 @@ October 21, 2024
 
 [Team 305](https://drive.google.com/drive/folders/1dzLA88jLNsgBlmBNI3v-Ub-JuR-p1YDu)
 
+## **Table of Contents**
+
+* [Selected Design Concept](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#selected-design-concept)
+
+* [Block Diagram](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#block-diagram)
+
+* [Component Selection](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#component-selection)
+
+* [Power Budget](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#power-budget-table)
+
+* [Microcontroller Selection](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#microcontroller-selection)
+
+* [Hardware Proposal](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#hardware-proposal)
+
+* [Software Proposal](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#software-proposal)
+
+* [Appendix A: Complete cComponent Selection](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#appendix-a-component-selection)
+
+* [Appendix B: Microcontroller Selection Table](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#appendix-b-microcontroller-selection)
+
+* [Appendix C: Bill of Materials](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#appendix-c-hardware-proposal)
+
+
 ## **Selected Design Concept**
 
 ### **Features**
