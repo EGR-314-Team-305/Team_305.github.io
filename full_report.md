@@ -20,6 +20,12 @@ September 9, 2024
 
 ## **Table of Contents**
 
+* [Team Organization](link)
+
+* [User Needs, Benchmarking, and Requirements](link)
+
+* [Design Ideation](link) 
+
 * [Selected Design Concept](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#selected-design-concept)
 
 * [Block Diagram](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#block-diagram)
