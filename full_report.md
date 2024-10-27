@@ -20,31 +20,37 @@ September 9, 2024
 
 ## **Table of Contents**
 
-* [Team Organization](link)
+* [Team Organization](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#team-organization)
 
-* [User Needs, Benchmarking, and Requirements](link)
+* [User Needs, Benchmarking, and Requirements](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#user-needs-benchmarking-and-requirements)
 
-* [Design Ideation](link) 
+* [Design Ideation](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#design-ideation) 
 
-* [Selected Design Concept](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#selected-design-concept)
+* [Selected Design Concept](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#selected-design-concept)
 
-* [Block Diagram](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#block-diagram)
+* [Block Diagram](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#block-diagram)
 
-* [Component Selection](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#component-selection)
+* [Component Selection](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#component-selection)
 
-* [Power Budget](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#power-budget-table)
+* [Power Budget](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#power-budget-table)
 
-* [Microcontroller Selection](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#microcontroller-selection)
+* [Microcontroller Selection](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#microcontroller-selection)
 
-* [Hardware Proposal](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#hardware-proposal)
+* [Hardware Proposal](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#hardware-proposal)
 
-* [Software Proposal](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#software-proposal)
+* [Software Proposal](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#software-proposal)
 
-* [Appendix A: Complete Component Selection](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#appendix-a-component-selection)
+* [Appendix A: ](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#appendix-a-team-organization)
 
-* [Appendix B: Microcontroller Selection Table](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#appendix-b-microcontroller-selection)
+* [Appendix B: ](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#appendix-b-user-needs-benchmarking-requirements)
 
-* [Appendix C: Bill of Materials](https://egr-314-team-305.github.io/Team_305.github.io/checkpoint2.html#appendix-c-hardware-proposal)
+* [Appendix C: ](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#appendix-c-design-ideation)
+
+* [Appendix D: Complete Component Selection](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#appendix-d-component-selection)
+
+* [Appendix E: Microcontroller Selection Table](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#appendix-e-microcontroller-selection)
+
+* [Appendix F: Bill of Materials](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#appendix-f-hardware-proposal)
 
 
 ## Team Organization
