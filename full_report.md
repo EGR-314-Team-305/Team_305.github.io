@@ -52,6 +52,8 @@ September 9, 2024
 
 * [Appendix F: Bill of Materials](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#appendix-f-hardware-proposal)
 
+## Introduction
+For the Fall 2024 session of EGR 314, the design challenge was to sense and measure environmental factors, then use those measurements to actuate a moving subsystem like a motor or servo. To this end, Team 305 looked at different ideas that would satisfy the course requirements, while also providing the team members the desired experience and knowledge-base. During the design ideation phase the team landed on a monitoring system for freezers, where the design would measure the temperature and humidity of said freezer, then actuate a fan attached to a DC motor to increase the air flow in the freezer. The working theory is that without proper air flow, freezers can build up frost due to excess water in the air, as well as having hotter spots where the air cannot circulate as well. With the intended design solution, the hope is that the excess frost can be minimized, and a more even distribution of cooling can be achieved.
 
 ## Team Organization
 
