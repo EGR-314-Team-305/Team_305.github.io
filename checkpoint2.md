@@ -73,7 +73,7 @@ All of these subsystems work together via Microchips’ PIC16F18124T-I/SL microc
 
 ### **Updated Block Diagram**
 
-![image](https://raw.githubusercontent.com/schowderek/schowderek.github.io/refs/heads/main/Block%20Diagram-Team305.drawio.svg)
+![image](https://raw.githubusercontent.com/schowderek/schowderek.github.io/refs/heads/main/Block%20Diagram-Team305(1).drawio.svg)
 
 ## **Component Selection**
 
