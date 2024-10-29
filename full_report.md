@@ -279,27 +279,27 @@ The table detailing the three options the team considered is located in Appendix
 
 ### **Team Schematic**
 
-<img src="https://media.discordapp.net/attachments/1277785193943662595/1300219286627029063/image.png?ex=67200b12&is=671eb992&hm=0b73158e4b336700786599108fcd935a6ca8a76879f7eb53c4c3f11065e5a111&=&format=webp&quality=lossless&width=1146&height=593" alt="Alt Text" width="1146" height="593"> 
+<img src="https://github.com/Rockerfrog/Rockerfrog.github.io/blob/main/Team%20Schematic.jpg?raw=true" alt="Alt Text" width="1146" height="593"> 
 
 ### **Voltage Regulator Assembly**
 
-<img src="https://media.discordapp.net/attachments/1277785193943662595/1299514512118120560/image.png?ex=67201db3&is=671ecc33&hm=e9051933ca92414b5e199a95075bf2c64399fbe1598ee932057454a599378986&=&format=webp&quality=lossless&width=1113&height=538" alt="Alt Text" width="1113" height="538"> 
+<img src="https://github.com/Rockerfrog/Rockerfrog.github.io/blob/main/voltage%20regulator%20assembly.jpg?raw=true" alt="Alt Text" width="1113" height="538"> 
 
 ### **Microcontroller Assembly**
 
-<img src="https://media.discordapp.net/attachments/1277785193943662595/1299514618150129754/image.png?ex=67201dcc&is=671ecc4c&hm=d02cd2f294c5164fc773cf9c19e4e6d6420d9831737c4c0a22e426e5974b9062&=&format=webp&quality=lossless&width=836&height=528" alt="Alt Text" width="836" height="528"> 
+<img src="https://github.com/Rockerfrog/Rockerfrog.github.io/blob/main/microcontroller%20assembly.jpg?raw=true" alt="Alt Text" width="836" height="528"> 
 
 ### **Temperature Sensor Assembly**
 
-<img src="https://media.discordapp.net/attachments/1277785193943662595/1299514691881537566/image.png?ex=67201dde&is=671ecc5e&hm=929a154051b28f9f7efc780aceb2b36330c061fa9accf3feb568927a9bd3c920&=&format=webp&quality=lossless&width=858&height=472" alt="Alt Text" width="858" height="472"> 
+<img src="https://github.com/Rockerfrog/Rockerfrog.github.io/blob/main/temperature%20sensor%20assembly.jpg?raw=true" alt="Alt Text" width="858" height="472"> 
 
 ### **Humidity Sensor Assembly**
 
-<img src="https://media.discordapp.net/attachments/1277785193943662595/1299514797393444975/image.png?ex=67201df7&is=671ecc77&hm=d79fa0983007cf50f82509a1a70b4c9de2de54ad08a7c27adbf084c81c528dbd&=&format=webp&quality=lossless&width=758&height=500" alt="Alt Text" width="758" height="500"> 
+<img src="https://github.com/Rockerfrog/Rockerfrog.github.io/blob/main/humidity%20sensor%20assembly.jpg?raw=true" alt="Alt Text" width="758" height="500"> 
 
 ### **Motor Driver / Motor Assembly**
 
-<img src="https://media.discordapp.net/attachments/1277785193943662595/1299514855773966346/image.png?ex=67201e05&is=671ecc85&hm=a1c8cac17fcaffa6ce97d29263485b3fc5f1dcd8ee09562f074841d3aeeaeb96&=&format=webp&quality=lossless&width=585&height=532" alt="Alt Text" width="585" height="532"> 
+<img src="https://github.com/Rockerfrog/Rockerfrog.github.io/blob/main/motor%20driver%20assembly.jpg?raw=true" alt="Alt Text" width="585" height="532"> 
 
 ### **Functionality/Decision Making**
 
