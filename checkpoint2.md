@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0d22b145-b11c-4f97-a6cb-7ca380437022)# **Embedded System Designs Project II**
+# **Embedded System Designs Project II**
 
 ## **Checkpoint 2**
 
