@@ -318,6 +318,10 @@ This diagram displays the logical behavior of the software in our microcontrolle
 
 Additionally, the system’s display and communication features, the OLED screen built into the ESP32 module provides real-time updates on the temperature and humidity inside the freezer, giving users immediate visual feedback. At the same time, the WiFi module transmits this data to the user’s mobile application, allowing remote data collection on the freezer conditions and alerts the user if needed. 
 
+## **System Verification Table**
+<img width="553" alt="image" src="https://github.com/user-attachments/assets/d3ec9b97-e81b-4f0a-9130-6db59561ca3e">
+
+
 ## **Appendix A: Team Organization:**
 
 ### **Communication Channels & Procedures**
