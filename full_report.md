@@ -927,3 +927,19 @@ C. Select a specific external power source (wall supply or battery) for your sys
 | Power Rails Connected to External Power Source 1 | +12V supply                                                  |                    | +12V                       | 1              | 1000                                | 1000                     | mA   |
 | +3.3V regulator                                  | LM2575                                                       | +3.3V              | 1                          | 1000           | 1000                                | mA                       |
 |                                                  | Total Remaining Current Available on External Power Source 1 | 500                | mA                         |
+
+| Team #                            | 305                     |
+| --------------------------------- | ----------------------- |
+| Team Name                         | Team 305                |
+| Topic                             | EGR314/Team305/Humidity | EGR314/Team305/ |  |
+| Team Members / Devices Publishing | ESP32/Main Board        | ESP32/Main Board |  |
+| Team Members / DevicesSubscribing | Laptop/Main Board       | Laptop/Main Board |  |
+| Value Separator                   | \-                      | \- |  |
+| Value 1                           | Name                    | Humidity | Temperature |  |
+| Description                       | % Relative Humidity     | Ambient Temperature |  |
+| Units                             | %                       | Degrees C |  |
+| Minimum Value                     | 0                       | \-127 |  |
+| Maxmum Value                      | 65536 (100%)            | 127 |  |
+| Type                              | uint_16                 | int (signed, 8 bit) |  |
+| Format String                     | "%2.0d"                 | "%2.0d" |  |
+| Unique Identifier                 | h                       | t | <br><br> |
