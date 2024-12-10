@@ -53,7 +53,8 @@ December 9, 2024
 * [Appendix F: Bill of Materials](https://egr-314-team-305.github.io/Team_305.github.io/full_report.html#appendix-f-hardware-proposal)
 
 ## Introduction
-For the Fall 2024 session of EGR 314, the design challenge was to sense and measure environmental factors, then use those measurements to actuate a moving subsystem like a motor or servo. To this end, Team 305 looked at different ideas that would satisfy the course requirements, while also providing the team members the desired experience and knowledge-base. During the design ideation phase the team landed on a monitoring system for freezers, where the design would measure the temperature and humidity of said freezer, then actuate a fan attached to a DC motor to increase the air flow in the freezer. The working theory is that without proper air flow, freezers can build up frost due to excess water in the air, as well as having hotter spots where the air cannot circulate as well. With the intended design solution, the hope is that the excess frost can be minimized, and a more even distribution of cooling can be achieved.
+
+For this semester’s EGR 314 project class, the team was tasked with creating a device that uses two sensors to measure different factors from its surrounding environment. As well as using the captured data to then actuate a motor that performs a mechanical action. All of this must be achieved using the inter integrated circuit (I2C) protocol which allows for communication between all subsystems. The components selected for this project must also be surface mounted and the system must operate on 12 volts.  This year the team also has the responsibility for finding a suitable microcontroller to control the final device . The team aims to meet the project requirements by first performing market research. Such as benchmarking products that meet some of the requirements for this project and looking for devices that are innovative and exciting to take inspiration from. The team will also have to develop the skills necessary to make this project come to life. This means learning to solder surface mounted components and getting used to new software like Cadence and Altium to design the printed circuit board. In the end with time, research, and discipline the team hopes to create a novel and useful prototype that consumers would consider a marked improvement over other products. Something that tackles one problem but is versatile enough is its design to be easily improved to do multiple other things.  Most importantly the team hopes to take away all the valuable skills that will be gained during this course and apply them in future projects and endeavors.
 
 ## Team Organization
 
@@ -63,23 +64,23 @@ The team will operate with the following goals throughout the semester:
 
 1. **Work together to create a functional technical product that solves a real-world problem:**
 
-    The primary goal is for the team to work together on creating a technical solution to a practical, real-world issue. This involves identifying a problem or need, brainstorming potential solutions, and then narrowing down the idea to a feasible and impactful project. The product should not only be functional but also innovative, addressing the real-world problem in a way that adds value and makes a tangible difference.
+The primary goal is for the team to work together on creating a technical solution to a practical, real-world issue. This involves identifying a problem or need, brainstorming potential solutions, and then narrowing down the idea to a feasible and impactful project. The product should not only be functional but also innovative, addressing the real-world problem in a way that adds value and makes a tangible difference.
 
 2. **Gain experience with electronics and embedded system design with a microcontroller:**
 
-    Team members will deepen their understanding of electronics and embedded systems by working directly with microcontrollers. This experience includes designing circuits, programming the microcontroller, and integrating various electronic components. The goal is to develop proficiency in both hardware (sensors, actuators, communication modules) and software (embedded programming, interfacing, and debugging) aspects of the system.
+Team members will deepen their understanding of electronics and embedded systems by working directly with microcontrollers. This experience includes designing circuits, programming the microcontroller, and integrating various electronic components. The goal is to develop proficiency in both hardware (sensors, actuators, communication modules) and software (embedded programming, interfacing, and debugging) aspects of the system.
 
 3. **Maximize work efficiency through extensive planning and proper time management:**
 
-    Efficient teamwork relies on solid planning and time management. The team will need to create a comprehensive project timeline, breaking down the work into manageable tasks, setting deadlines, and assigning responsibilities. Proper organization is key to ensuring that all team members contribute effectively, progress is steady, and roadblocks are anticipated and addressed promptly.
+Efficient teamwork relies on solid planning and time management. The team will need to create a comprehensive project timeline, breaking down the work into manageable tasks, setting deadlines, and assigning responsibilities. Proper organization is key to ensuring that all team members contribute effectively, progress is steady, and roadblocks are anticipated and addressed promptly.
 
 4. **Develop a final product to showcase the team members’ newfound knowledge and experience utilizing embedded systems:**
 
-    The culmination of the project will be a final product that embodies the collective knowledge and experience gained during the process. This product should not only solve the identified problem but also serve as a demonstration of the team’s newly acquired expertise in electronics and embedded system design. The project should reflect the practical application of theoretical concepts and provide insight into the team's learning journey.
+The culmination of the project will be a final product that embodies the collective knowledge and experience gained during the process. This product should not only solve the identified problem but also serve as a demonstration of the team’s newly acquired expertise in electronics and embedded system design. The project should reflect the practical application of theoretical concepts and provide insight into the team's learning journey.
 
 5. **Present our final project in a presentation to effectively communicate the team’s knowledge to the class and the client:**
 
-    The team will prepare a formal presentation to showcase their project, explaining the problem, the development process, the technical design, and the final product. The presentation should clearly communicate the technical aspects of the solution, demonstrate how it addresses the identified real-world problem, and highlight the team’s growth in technical and collaborative skills. Tailoring the presentation to the audience will ensure that the key points are delivered effectively and comprehensively.
+The team will prepare a formal presentation to showcase their project, explaining the problem, the development process, the technical design, and the final product. The presentation should clearly communicate the technical aspects of the solution, demonstrate how it addresses the identified real-world problem, and highlight the team’s growth in technical and collaborative skills. Tailoring the presentation to the audience will ensure that the key points are delivered effectively and comprehensively.
 
 
 ### **Product Mission Statement**
@@ -90,15 +91,69 @@ Our mission is to design and develop a product that aims to incorporate the use 
 
 ### **Listing and Grouping Needs**
 
-During the very early stages of this class the team wanted to make something that was slightly different from a mobile weather station. Instead the team wanted to look toward making a product that was used in a cooking setting. The team wanted a product that could be used to help regulate the storage and preservation of foods or even create a device that could provide more accurate readings for something like a meat smoker or grill. So during the benchmarking process the team picked products on the market that related to cooking in some way. For our five products two were temperature sensors, two were cooking tools, and one was a product that cooled a person down which is very handy in those grilling environments. We did this so as to find needs that would relate to our future product. The team then looked through the reviews of each product and found six positive and six negative reviews. Utilizing these reviews the team was then able to create ten user needs for each product, with half of them being explicit needs and the other being latent needs. In total the team found fifty needs and grouped them into a jamboard.
+During the very early stages of this class the team wanted to make something that was slightly different from a mobile weather station. Instead the team wanted to look toward making a product that was used in a cooking setting. The team wanted a product that could be used to help regulate the storage and preservation of foods or even create a device that could provide more accurate readings for something like a meat smoker or grill. So during the benchmarking process the team picked products on the market that related to cooking in some way. For our five products two were temperature sensors, two were cooking tools, and one was a product that cooled a person down which is very handy in those grilling environments. We did this so as to find needs that would relate to our future product. The team then looked through the reviews of each product and found six positive and six negative reviews. Utilizing these reviews the team was then able to create ten user needs for each product, with half of them being explicit needs and the other being latent needs. In total the team found fifty needs and grouped them into a jamboard. After this process the team narrowed their goal down to wanting to create a device that was used to monitor and maintain the environment in a refrigerator more specifically the freezer. The team looked into the effects of frost build up and how to combat it, because with frost build up blocked vents and a less efficient freezer which could lead to spoiled meats and foods.  The benchmarked products and figures that show the needs and jamboards can be found in Appendix B.
 
 ### **Converting Needs**
 
-For the process of converting the needs into specifications the team created four categories that were used to group the user needs in. The four categories included: cost effectiveness, user friendliness, reliability, and wireless connectability. After color coding and grouping the needs the team ranked the user needs in each category. This was done using a one to three star scale, with three stars being an important user need, two stars being somewhat important and one being a less important user need. The ranking the user need received was based on two factors. The first was how prevalent that user needs was in the reviews and the second was based on how broad the user need was.We wanted broad user needs so that they encompassed the more specific user needs. For example the user need that stated the device needed to be easy to install, received three stars. Whereas the user needs that stated the probe must be easy to position, received a one star rank. The team then looked at the top ranked user needs and converted those into specifications that could be measurable to see if we met the needs of the user. 
+For the process of converting the needs into specifications the team created four categories that were used to group the user needs in. The four categories included: cost effectiveness, user friendliness, reliability, and wireless connectability. After color coding and grouping the needs the team ranked the user needs in each category. This was done using a one to three star scale, with three stars being an important user need, two stars being somewhat important and one being a less important user need. The ranking the user need received was based on two factors. The first was how prevalent that user needs was in the reviews and the second was based on how broad the user need was. We wanted broad user needs so that they encompassed the more specific user needs. For example the user that stated the device needed to be easy to install, received three stars. Whereas the user that stated the probe must be easy to position, received a one star rank. The team then looked at the top ranked user needs and converted those into specifications that could be measurable to see if we met the needs of the user. The figure of these ranked user needs can be found in Appendix B.
 
 ### **Design Aspects**
 
 Our design aspects are grouped into six categories. These include product design, software/functionality, interactivity & User experience, customization, manufacturing and safety. The top aspects in each category include designing a device that is unique from existing products, making a device that will communicate with an online server via ESP 32 module, making sure the device will work with different devices, allowing the user to customize the device to meet a certain goal, making each subsystem at a reasonable cost, and lastly making sure the device is not harmful to the user in any way. The rest of the design aspects are listed in Appendix B: 
+
+## Product Requirements
+
+### **Stakeholders**
+
+Average consumers - Users who could benefit from a refrigerator regulator device. Specifically one that senses and displays the internal temperature and actively works to combat frost and ice build up.
+
+Manufacturers - Those who could produce and source small IC components necessary for the freezer regulator and manufacture the product on an industrial scale.
+
+Food industry - End users who could use a temperature control device to expand their business
+
+### **Use Cases**
+
+Use Case #1 - Average Consumer
+
+Karen purchased the freezer regulator device via Amazon and uses it everyday to keep her ingredients safe and well preserved. Being able to monitor the temperature of her refrigerator and keep it from getting too cold and frosting up reassures her that her food will not suffer from freezer burn. 
+
+Use Case #2 - Manufacturers
+
+Mr. Winwood purchased an industrial version of the device in order to regulate the quality of the food his factory puts out. The device provides better data logging and thermal control so that his food more frequently meets quality standards.
+
+### **Requirement Aspects**
+
+Hardware/Product Design
+
+The device will be noticeably different from existing products on the market.
+The device will be made using resources available to ASU students.
+The device will conform to size restrictions provided by the course project requirements.
+
+Software/Functionality
+
+The device will function using a PIC microcontroller and serial sensors to control the movement of a motor via a motor controller.
+The device will communicate with an online server via an ESP32 module.
+
+Interactivity & User Experience
+
+The device will work with the MQTT explorer application, where the temperature and humidity of the freezer can be accessed
+The device will operate to inform the user of any changes inside of the freezer’s environment. 
+
+Portability
+
+The device will allow users to set it in different areas of the freezer so that all corners of the freezer maintain the same temperature and thus prevent the build up of hotspots.
+The device will come equipped with a suction cup so it can be placed along the walls of the freezer.
+
+Manufacturing
+
+The cost of each subsystem will fall within the restrictions provided by the course project description.
+The device will be manufactured in a way that debugging/maintenance will be relatively easy and straightforward.
+
+Safety
+
+The device will conform to the appropriate safety standards.
+The device will not harm the user in any way during operation.
+
 
 ## Design Ideation
 
@@ -114,23 +169,21 @@ The brainstorming process started out by creating a jamboard and coming up with 
 
 After concluding the brainstorming process the team came up with three concept ideas. Those three ideas were the meat smoker measuring device, the freezer regulating device, and the rc cave crawler. Related ideas from the brainstorming session were then grouped under the concept that they best reinforced. To provide a visual aid of our different concepts the team created computer generated images and the top concept also included a detailed vector sketch of the concept at work. Derek created the vector image for our top concept, the freezer regulating device. A computer generated image of the freezer regulator also accompanied the image. Scott made a concept image for the meat smoker measuring device. Lastly Victor made a concept image for the rc cave crawler. Each of these concepts were accompanied by short descriptions of the features that would be included in each concept. To see the concept images and jamboards visit Appendix C: Design Ideation. 
 
-## **Selected Design Concept**
+## **Final Selected Design Concept**
 
 ### **Features**
 
-Below is a rendering of what the team calls the freezer regulator. The freezer regulator’s main function is to read and report the temperature and humidity inside of a freezer. If the humidity rises and is not consistent with the set temperature of the freezer a fan will be triggered to circulate cold air to all sections of the freezer. This will help reduce hot spots and will combat unwanted ice build up. 
+Figure 1. is a rendering of what the team calls the freezer regulator. The freezer regulator’s main function is to read and report the temperature and humidity inside of a freezer. If the humidity rises and is not consistent with the set temperature of the freezer a fan will be triggered to circulate cold air to all sections of the freezer. This will help reduce hot spots and will combat unwanted ice build up. The freezer regulator will communicate to users via MQTT server which can be accessed using the MQTT explorer application that contains the temperature and humidity readings from inside of the freezer. This will be possible thanks to the ESP32 wifi module, which also has a built-in OLED screen that will provide another avenue to display the readings from inside the freezer to the user. The freezer regulator will be able to be clipped outside of the freezer door and will consist of the printed circuit board, motor controlled fan, and the ESP32 module. Unfortunately due to time constraints the team wasn’t able to hook up the ESP32 module with the built-in OLED screen and wasn’t able to come up with a housing to enclose the PCB and the sensors. However, given more time the team would implement both of these quality of life features. So as far as the design is concerned nothing will change in the foreseeable future.
 
-The freezer regulator will communicate to users via an application that contains the data it has captured. This will be possible thanks to the ESP32 wifi module, which also has a built-in OLED screen that will provide another avenue to display the readings from inside the freezer to the user. The freezer regulator will be able to be clipped outside of the freezer door and will consist of the printed circuit board, motor controlled fan, and the ESP32 module. 
+### **Rendering**
+
+![image](https://raw.githubusercontent.com/schowderek/schowderek.github.io/refs/heads/main/Final%20Design%20Idea.drawio.svg)
 
 ### **Reasoning**
 
 After evaluating all three concept designs - the meat smoker measuring device, the freezer regulating device, and the RC cave crawler - the team ultimately decided to move forward with the freezer device. This was chosen for several reasons. The freezer regulator presented a practical solution to a common household problem of ice buildup in freezers. Its functionality of monitoring temperature and humidity while preventing ice formation, could be easily integrated into everyday use. Displaying the readings on the screen also enhanced user friendliness, making it accessible to more people.
 
 In contrast, while the meat smoker device had potential for certain markets, it was less universally applicable. The RC cave crawler, while a fun idea, was potentially too niche a market and had very few functional applications. The freezer regulator had a more streamlined design with the ability to be installed in any freezer, with minimal hardware components. These factors, with the combination of a strong visual representation created by Derek, and computer generated images made the freezer regulator stand out as the most practical of the three options.
-
-### **Rendering**
-
-![image](https://raw.githubusercontent.com/schowderek/schowderek.github.io/refs/heads/main/Final%20Design%20Idea.drawio.svg)
 
 ## **Block Diagram**
 
@@ -144,9 +197,13 @@ The motor subsystem utilizes the AMT4900GLKATR motor driver and Fan Axial 30X8MM
 
 All of these subsystems work together via Microchips’ PIC16F18124T-I/SL microcontroller. The microcontroller runs on the regulated 3.3 volts provided by the LM2575 voltage regulator. The microcontroller then communicates to the ESP32 module via UART which allows data from the temperature and humidity sensor to be displayed on the user's device while connected to wifi. The ESP32 module also has a small LCD screen which will be another way to display the sensors’ readings from inside the freezer. All of these subsystems work together to gather data from inside the freezer.
 
+### **Development**
+
+After multiple iterations Figure 2. shows the completed block diagram that the team developed. The central part of it shows the microcontroller and the connection pins to the subsystems and debugging LED’s. It also depicts the UART connection to the ESP32 wifi module. This central part of the diagram is encompassed by a dashed line which shows that all of these components are powered by 3.3 volts. At the very bottom you can see a different dashed line that shows that the motor is receiving 9 volts and is powered by a 9 volt battery. Lastly the cloud shows the MQTT server which communicates with our system thanks to the ESP32 module. This allows us to display the data captured from the humidity and temperature sensors.
+
 ### **Updated Block Diagram**
 
-![image](https://raw.githubusercontent.com/schowderek/schowderek.github.io/refs/heads/main/Block%20Diagram-Team305(1).drawio.svg)
+<img width="474" alt="image" src="https://github.com/user-attachments/assets/ac270e06-3ff1-4358-917b-69895532a3bc">
 
 ## **Component Selection**
 
