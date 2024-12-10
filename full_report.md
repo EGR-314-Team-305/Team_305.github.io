@@ -929,7 +929,7 @@ C. Select a specific external power source (wall supply or battery) for your sys
 |                                                  | Total Remaining Current Available on External Power Source 1 | 500                | mA                         |
 
 | Team #                            | 305                           |
-| --------------------------------- | ----------------------------- |
+| --------------------------------- | ----------------------------- |----------------------------------|
 | Team Name                         | Team 305                      |
 | Topic                             | EGR314/Team305/HumiditySensor | EGR314/Team305/TemperatureSensor |
 | Team Members / Devices Publishing | ESP32/Main Board              | ESP32/Main Board |
