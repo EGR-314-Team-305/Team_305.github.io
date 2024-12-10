@@ -319,9 +319,15 @@ This diagram displays the logical behavior of the software in our microcontrolle
 Additionally, the system’s display and communication features, the OLED screen built into the ESP32 module provides real-time updates on the temperature and humidity inside the freezer, giving users immediate visual feedback. At the same time, the WiFi module transmits this data to the user’s mobile application, allowing remote data collection on the freezer conditions and alerts the user if needed. 
 
 ## **System Verification Table**
+
 <img width="553" alt="image" src="https://github.com/user-attachments/assets/d3ec9b97-e81b-4f0a-9130-6db59561ca3e">
 
 ## **Lessons Learned**
+
+Throughout the course of this class, there were many lessons that had be learned in order to come up with a functional prototype. The first of which is to choose components that have informative datasheets. During the component selection process and design it is essential to become familiar with the component and its functions; an in-depth datasheet is helpful to say the least.
+Further, when choosing a microcontroller, understanding what software supports it will save time and effort. For this class MPLab was used, and much of the provided tutorials utlized MCC Classic within the IDE. The team selected an 8-bit processor, but found out too late that MCC Classic does not support such processors so a completely different interface had to be learned, which also affected how serial communication was set up.
+After the team board was manufactured, a significant amount of time is necessary to debug and get final checkoffs. Integrating each subsystem took substantial effort so any extra time is crucial. The team did well with staying on track and made sure at least two weeks of class time was used for debugging, and everything was checked off on exactly the last day.
+
 
 ## **Recommendations**
 
