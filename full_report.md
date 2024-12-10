@@ -211,128 +211,34 @@ After multiple iterations Figure 2. shows the completed block diagram that the t
 
 The tables below display the components that each team member selected for their subsystem. It lists the component as well as links to its product page and datasheets. Accompanying the selected component are its pros and cons in comparison to our constraints which include things such as cost and functionality. Below each table are also brief descriptions of why each component was selected. These tables omit two other alternative components that each team member considered for the sole purpose of focusing on the selected components. However, the completed tables that include the alternative choices can be found in Appendix A: Component Selection.
 
-### **Selected Components**
-
-Motor Driver: (Scott Hardman)
-
-| Solution | Pros | Cons |
-|----------|------|------|
-| <img src="https://github.com/Rockerfrog/Rockerfrog.github.io/blob/main/620%3B-10SOIC-EP-3%2C9%3B-LK%3B-10.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>AMT49400GLKATR <br>[Link to product](https://www.digikey.com/en/products/detail/allegro-microsystems/AMT49400GLKATR/10146667)<br>[Link to datasheet](https://www.allegromicro.com/-/media/Files/Datasheets/AMT49400-Datasheet.ashx) | - High voltage supply and load <br> - Motor Driver Power MOSFET I2C 10-SOIC <br> - 0.3V-20V <br> - 2A Output Current | - Most expensive option <br> - Only operates one fan | 
-
-Choice: AMT49400GLKATR
-Rationale: The large voltage operating margin and general purpose design makes it the ideal pick for our product because the driver needs to be able to handle up to 12V and it is not too expensive despite this. 
-
-
-Motor: (Scott Hardman)
-
-| Solution | Pros | Cons |
-|----------|------|------|
-| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/MFG_HA40101V4-1000U-A99%20(1).jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>HA40101V4-1000U-A99 <br>[Link to product](https://www.digikey.com/en/products/detail/sunon-fans/HA40101V4-1000U-A99/6198728?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Medium%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20223376311_adg-_ad-__dev-c_ext-_prd-6198728_sig-CjwKCAjw0aS3BhA3EiwAKaD2ZV4SR-mhshkZJRApqpeEfWNnqg7gYdPNDVAJrWyka_VC8i5g6X8cFhoCoPgQAvD_BwE&gad_source=1&gclid=CjwKCAjw0aS3BhA3EiwAKaD2ZV4SR-mhshkZJRApqpeEfWNnqg7gYdPNDVAJrWyka_VC8i5g6X8cFhoCoPgQAvD_BwE) <br>[Link to datasheet](https://www.sunon.com/PROSEARCH_FILES/(D04111000G-02)-2.pdf)| - Operating Temperature <br> - Not a large footprint <br> - Low cost and quiet <br> - Lightweight | - Relatively high voltage pull <br> - 12 volts |
-
-Choice: HA40101V4-1000U-A99
-Rationale: The HA40101V4-1000U-A99 fan is just the right size. The operating voltage is high enough to work for our purposes for higher fan speeds, and it is not too expensive. It is quiet, while operating and lightweight. 
-
-
-Switching Voltage Regulator (Andrew Headley)
-
-| Solution | Pros | Cons |
-|----------|------|------|
-| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/296~4200577-4~KTT~5.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>LM2575HVS <br>[Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM2575HVS-3-3-NOPB/363637) <br>[Link to datasheet](https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2575-n)| - Output voltage (3.3v) <br> - Simple example circuit <br> - Wide input voltage range <br> - 1A output current | - Circuit protection is needed <br> - Outputs a set voltage <br> - No customization <br> - Only a buck converter |
-
-Choice: LM2575HVS
-Rationale: Even though the output voltage is fixed, having a simpler example circuit to follow reduces the points of failure so debugging and repairs can be addressed more quickly. Additionally, the wide voltage input will allow the team to offset any disadvantages from the LM2575 being only a buck converter. There is also a set 5V output version that can be used for powering other subsystems.
-
-Temperature Sensor (Victor Chavez)
-
-| Solution | Pros | Cons |
-|----------|------|------|
-| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/150~C04-057~SN,OA~8.jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>TCN75AVOA713 <br>[Link to product](https://www.digikey.com/en/products/detail/microchip-technology/TCN75AVOA713/739450) <br>[Link to datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/21935D.pdf)| - Temperature to digital converter <br> - Measure from -40°C to +125°C <br> - I2C™ Compatible <br> - Alert pin and configurable address pins | - Low measuring range <br> - Large IC size |
-
-Choice: TCN75AVOA713 
-Rationale: Microchip’s TCN75AVOA13 might have a smaller range in terms of measuring temperature, however, the smaller accuracy error makes it more suitable for our application. We also won’t be needing the extra -15 degrees that the DS1775R+T&R offers as most freezers operate at around 0 to 10 degrees fahrenheit. Also the TCN75AVOA13 has a configurable address which will be useful since we are connecting four devices into one I2C serial bus. The bigger footprint also will make it easier to work with during the PCB assembly process. Lastly the TCN75AVOA13 has configurable alert pins if the temperature it senses goes above or below its set threshold, which is also configurable.
-
-Humidity Sensor (Derek Schow)
-
-| Solution | Pros | Cons |
-|----------|------|------|
-| <img src="https://github.com/VictorChvz885/VictorChvz885.github.io/blob/main/Pkg%20SDE06A%20(1).jpg?raw=true" alt="Alt Text" width="125" height="150"> <br>HDC2080DMBR <br>[Link to product](https://www.digikey.com/en/products/detail/texas-instruments/HDC2080DMBR/9692560) <br>[Link to datasheet](https://www.ti.com/lit/ds/symlink/hdc2080.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1726699942311&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fhdc2080)| - I2C Output <br> - Interrupt Capability <br> - Larger size 3.1mm x 3.1mm <br> - Wide Supply voltage 1.62V - 3.6V <br> - Least expensive <br> - Surface Mount | - More complicated to set up - 6 pins <br> - Less accurate +/- 2% RH |
-
-Choice: HDC2080DMBR 
-Rationale: With more pins and capability we will have more control over exactly how we use the device. It is the least expensive of the options, and also has a small package size without being too small to solder. It can withstand the low temperatures inside of a freezer or fridge. While it is slightly less accurate than the other choices, 2% compared to 1.8% is a small enough difference that it will not affect the functionality of the end product. The datasheet is also more detailed with some example configurations.
-
-
-### **Power Budget Table**
-
-A. List ALL major components (active devices, integrated circuits, etc.) except for power sources, voltage regulators, resistors, capacitors, or passive elements
-
-| Component Name      | Part Number           | Supply<br>Voltage<br>Range | # | Absolute<br>Maximum<br>Current (mA) | Total<br>Current<br>(mA) | Unit |
-| ------------------- | --------------------- | -------------------------- | - | ----------------------------------- | ------------------------ | ---- |
-| Fan Motor           | HA40101V4-1000U-A99   | 12V                        | 1 | 37                                  | 37                       | mA   |
-| PIC Microcontroller | PIC16F18124T-I/SL<br> | 3.3V                       | 1 | 0.048                               | 0.048                    | mA   |
-| Humidity Sensor     | HDC2080DMBR           | 3.3V                       | 1 | 0.89                                | 0.89                     | mA   |
-| Temperature Sensor  | TCN75AVOA713          | 3.3V                       | 1 | 0.5                                 | 0.5                      | mA   |
-| Motor Driver        | AMT49400GLKATR<br>    | 3.3V-12V                   | 1 | 5                                   | 5                        | mA   |
-| ESP 32              | (full part number)    | +1.8 - 3.3V                | 1 | 40                                  | 40                       | mA   |
-|                     |                       |                            |   |                                     |                          |
-
-
-"B. Assign each major component above to ONE power rail below. Try to minimize the number of different power rails in the design. 
-Add additional power rails or change the power rail voltages if needed."		
-
-| +12V Input                     | Component Name                                 | Part Number         | Supply<br>Voltage<br>Range | # | Absolute<br>Maximum<br>Current (mA) | Total<br>Current<br>(mA) | Unit |
-| ------------------------------ | ---------------------------------------------- | ------------------- | -------------------------- | - | ----------------------------------- | ------------------------ | ---- |
-|                                | Fan Motor                                      | HA40101V4-1000U-A99 | 12V                        | 1 | 37                                  | 37                       | mA   |
-|                                | Motor Driver                                   | AMT49400GLKATR<br>  | 3.3V-12V                   | 1 | 5                                   | 5                        | mA   |
-|                                | Subtotal                                       | 42                  | mA                         |
-|                                | Safety Margin                                  | 25%                 |                            |
-|                                | Total Current Required on +12V Rail            | 52.5                | mA                         |
-|                                |                                                |                     |                            |   |                                     |                          |      |
-| c1. Regulator or Source Choice | +12V Wall Supply                               |                     | 12                         | 1 | 2500                                | 2500                     | mA   |
-|                                | Total Remaining Current Available on +12V Rail | 2447.5              | mA                         |
-
-| +3.3V Power Rail               | Component Name                                 | Part Number           | Supply<br>Voltage<br>Range | # | Absolute<br>Maximum<br>Current (mA) | Total<br>Current<br>(mA) | Unit |
-| ------------------------------ | ---------------------------------------------- | --------------------- | -------------------------- | - | ----------------------------------- | ------------------------ | ---- |
-|                                | PIC Microcontroller                            | PIC16F18124T-I/SL<br> | 3.3V                       | 1 | 0.048                               | 350                      | mA   |
-|                                | Humidity Sensor                                | HDC2080DMBR           | 3.3V                       | 1 | 0.89                                | 0.89                     | mA   |
-|                                | Temperature Sensor                             | TCN75AVOA713          | 3.3V                       | 1 | 0.5                                 | 0.5                      | mA   |
-|                                | Motor Driver                                   | AMT49400GLKATR<br>    | 3.3V-12V                   | 1 | 5                                   | 5                        | mA   |
-|                                | ESP 32                                         | (full part number)    | +1.8 - 3.3V                | 1 | 40                                  | 40                       | mA   |
-|                                | Subtotal                                       | 356.39                | mA                         |
-|                                | Safety Margin                                  | 25%                   |                            |
-|                                | Total Current Required on +3.3V Rail           | 445.4875              | mA                         |
-|                                |                                                |                       |                            |   |                                     |                          |      |
-| c4. Regulator or Source Choice | +3.3V switching voltage regulator              | LM2575                | +3.3V                      | 1 | 1000                                | 1000                     | mA   |
-|                                | Total Remaining Current Available on 3.3V Rail | 554.5125              | mA                         |
-
-
-C. Select a specific external power source (wall supply or battery) for your system, and confirm that it can supply all of the regulators for all of the power rails simultaneously. If you need multiple power sources, list each separately below and indicate which regulators will be connected to each supply. Confirm that the Total Remaining Current Available on each power source below is not negative.	
-
-| External Power Source 1                          | Component Name                                               | Part Number        | Supply<br>Voltage<br>Range | Output Voltage | Absolute<br>Maximum<br>Current (mA) | Total<br>Current<br>(mA) | Unit |
-| ------------------------------------------------ | ------------------------------------------------------------ | ------------------ | -------------------------- | -------------- | ----------------------------------- | ------------------------ | ---- |
-| Power Source 1 Selection                         | Plug-in Wall Supply                                          | (full part number) | 110VAC                     | +12V           | 2500                                | 2500                     | mA   |
-|                                                  |                                                              |                    |                            |                |                                     |                          |      |
-| Power Rails Connected to External Power Source 1 | +12V supply                                                  |                    | +12V                       | 1              | 1000                                | 1000                     | mA   |
-| +3.3V regulator                                  | LM2575                                                       | +3.3V              | 1                          | 1000           | 1000                                | mA                       |
-|                                                  | Total Remaining Current Available on External Power Source 1 | 500                | mA                         |
-
-
-### **Conclusion**
-
-Based on our power budget, we have determined that our system can be completely powered by a simple wall mounted DC supply with plenty of power to spare. All the components that were selected use less very low current at a relatively low voltage of 3.3V. The team was able to use this budget to plan for the supply that we would use. After this first iteration, the team would likely be able to update the design to operate on batteries for convenience.
-
-
-## **Microcontroller Selection**
-
-### **Decision Making**
+### **Microcontroller Selection**
 
 For the microcontroller selection the team wanted a microcontroller that would be reliable and would have a sufficient amount of pins for all of our subsystems. Being the connective tissue for all of the subsystems the microcontroller was a part the team did not want to rush in choosing. After weighing factors the team decided to choose the PIC16F18124 microcontroller. The larger layout and various packages gave us more options and flexibility when designing our printed circuit boards. More input/output pins, means our team can connect more subsystems which is preferable for a microcontroller that has to handle three subsystems. 
 
-This option also includes a better package type in SOIC rather than DFN. The SOIC package is favorable because of the wider pin size making for easier soldering. The difference between the three microcontrollers is small but the pin count in PIC16F18124 is the best choice for multiple subsystems. It's also low cost and has a voltage supply range of 1.8 to 5.5 volts. 
+This option also included a better package type in SOIC rather than DFN. The SOIC package was favorable because of the wider pin size making for easier soldering. The difference between the three microcontrollers was small but the pin count in PIC16F18124 was the best choice for multiple subsystems. It was also low cost and had a voltage supply range of 1.8 to 5.5 volts. 
 
 The table detailing the three options the team considered is located in Appendix B: Microcontroller Selection. It includes many sections that list the number of pins for each microcontroller, the operating voltage, max current rating, links to data sheets and product page, links to code examples, and much more. 
 
+### **Selected Components**
 
-## **Hardware Proposal**
+For the Motor Driver the team selected the AMT49400GLKATR . The large voltage operating margin and general purpose design made it the ideal pick for our product because the driver needed to be able to handle up to 12V and it was not too expensive despite this.
+For the Motor itself which was to be a fan the team went with the HA40101V4-1000U-A99 fan. It was the perfect size and its small package meant it could be placed in all the areas of a freezer. The operating voltage was high enough to work for our purposes for higher fan speeds, and it was not too expensive. It was quiet, while operating and lightweight.
+
+The  LM2575HVS Switching Voltage Regulator was the voltage regulator the team chose to use in this project. Even though the output voltage is fixed, having a simpler example circuit to follow reduces the points of failure so debugging and repairs can be addressed more quickly. Additionally, the wide voltage input allowed the team to offset any disadvantages from the LM2575 being only a buck converter. There was also a set 5V output version that can be used for powering other subsystems.
+
+The team chose Microchip’s TCN75AVOA713 as the temperature sensor.  Even though it had a smaller range in terms of measuring temperature, the smaller accuracy error made it more suitable for our application. We also didn’t need the extra -15 degrees that the DS1775R+T&R offers as most freezers operate at around 0 to 10 degrees fahrenheit. Also the TCN75AVOA13 had a configurable address which will be useful since we are connecting four devices into one I2C serial bus. The bigger footprint also made it easier to work with during the PCB assembly process. Lastly the TCN75AVOA13 had configurable alert pins if the temperature goes above or below its set threshold.
+
+Lastly the team chose the HDC2080DMBR as our humidity sensor. It had more pins which gave us more control over exactly how we use the device. It was the least expensive of the options, and also had a small package size without being too small to solder. It could withstand the low temperatures inside of a freezer or fridge. While it was slightly less accurate than the other choices, 2% compared to 1.8% was a small enough difference that it would not affect the functionality of the end product. The datasheet was also more detailed with some example configurations.
+
+### **Purpose of the Power Budget**
+
+To ensure that all of our subsystems would receive adequate power the team made a power budget table. This was a crucial step in the design process as this would confirm whether the power supplied to the system would be adequate enough to power all of the subsystems on board. This extra step would ensure the subsystems don’t exceed their power requirements and would help mitigate any further malfunctions in regards to power.  The power budget table can be found in Appendix G.
+
+### **Results**
+
+Based on our power budget, the team determined that our system could be completely powered by a simple wall mounted DC supply with plenty of power to spare. All the components that were selected use less very low current at a relatively low voltage of 3.3V. The team was able to use this budget to plan for the supply that we would use. After this first iteration, the team would likely be able to update the design to operate on batteries for convenience.
+
+## **Final Hardware Implementation**
 
 ### **Team Schematic**
 
@@ -939,3 +845,58 @@ Rationale: The larger layout and more package options gives us more options and 
 
                                                                                                                                 | Digikey        | 311-330LRCT-ND                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Digikey        | TCN75AVOA713CT-ND - Cut Tape (CT)          | 5               | 10/7/2024  | 5            | 4           | U4          |
 
+
+## Appendix G
+### **Power Budget Table**
+
+A. List ALL major components (active devices, integrated circuits, etc.) except for power sources, voltage regulators, resistors, capacitors, or passive elements
+
+| Component Name      | Part Number           | Supply<br>Voltage<br>Range | # | Absolute<br>Maximum<br>Current (mA) | Total<br>Current<br>(mA) | Unit |
+| ------------------- | --------------------- | -------------------------- | - | ----------------------------------- | ------------------------ | ---- |
+| Fan Motor           | HA40101V4-1000U-A99   | 12V                        | 1 | 37                                  | 37                       | mA   |
+| PIC Microcontroller | PIC16F18124T-I/SL<br> | 3.3V                       | 1 | 0.048                               | 0.048                    | mA   |
+| Humidity Sensor     | HDC2080DMBR           | 3.3V                       | 1 | 0.89                                | 0.89                     | mA   |
+| Temperature Sensor  | TCN75AVOA713          | 3.3V                       | 1 | 0.5                                 | 0.5                      | mA   |
+| Motor Driver        | AMT49400GLKATR<br>    | 3.3V-12V                   | 1 | 5                                   | 5                        | mA   |
+| ESP 32              | (full part number)    | +1.8 - 3.3V                | 1 | 40                                  | 40                       | mA   |
+|                     |                       |                            |   |                                     |                          |
+
+
+"B. Assign each major component above to ONE power rail below. Try to minimize the number of different power rails in the design. 
+Add additional power rails or change the power rail voltages if needed."		
+
+| +12V Input                     | Component Name                                 | Part Number         | Supply<br>Voltage<br>Range | # | Absolute<br>Maximum<br>Current (mA) | Total<br>Current<br>(mA) | Unit |
+| ------------------------------ | ---------------------------------------------- | ------------------- | -------------------------- | - | ----------------------------------- | ------------------------ | ---- |
+|                                | Fan Motor                                      | HA40101V4-1000U-A99 | 12V                        | 1 | 37                                  | 37                       | mA   |
+|                                | Motor Driver                                   | AMT49400GLKATR<br>  | 3.3V-12V                   | 1 | 5                                   | 5                        | mA   |
+|                                | Subtotal                                       | 42                  | mA                         |
+|                                | Safety Margin                                  | 25%                 |                            |
+|                                | Total Current Required on +12V Rail            | 52.5                | mA                         |
+|                                |                                                |                     |                            |   |                                     |                          |      |
+| c1. Regulator or Source Choice | +12V Wall Supply                               |                     | 12                         | 1 | 2500                                | 2500                     | mA   |
+|                                | Total Remaining Current Available on +12V Rail | 2447.5              | mA                         |
+
+| +3.3V Power Rail               | Component Name                                 | Part Number           | Supply<br>Voltage<br>Range | # | Absolute<br>Maximum<br>Current (mA) | Total<br>Current<br>(mA) | Unit |
+| ------------------------------ | ---------------------------------------------- | --------------------- | -------------------------- | - | ----------------------------------- | ------------------------ | ---- |
+|                                | PIC Microcontroller                            | PIC16F18124T-I/SL<br> | 3.3V                       | 1 | 0.048                               | 350                      | mA   |
+|                                | Humidity Sensor                                | HDC2080DMBR           | 3.3V                       | 1 | 0.89                                | 0.89                     | mA   |
+|                                | Temperature Sensor                             | TCN75AVOA713          | 3.3V                       | 1 | 0.5                                 | 0.5                      | mA   |
+|                                | Motor Driver                                   | AMT49400GLKATR<br>    | 3.3V-12V                   | 1 | 5                                   | 5                        | mA   |
+|                                | ESP 32                                         | (full part number)    | +1.8 - 3.3V                | 1 | 40                                  | 40                       | mA   |
+|                                | Subtotal                                       | 356.39                | mA                         |
+|                                | Safety Margin                                  | 25%                   |                            |
+|                                | Total Current Required on +3.3V Rail           | 445.4875              | mA                         |
+|                                |                                                |                       |                            |   |                                     |                          |      |
+| c4. Regulator or Source Choice | +3.3V switching voltage regulator              | LM2575                | +3.3V                      | 1 | 1000                                | 1000                     | mA   |
+|                                | Total Remaining Current Available on 3.3V Rail | 554.5125              | mA                         |
+
+
+C. Select a specific external power source (wall supply or battery) for your system, and confirm that it can supply all of the regulators for all of the power rails simultaneously. If you need multiple power sources, list each separately below and indicate which regulators will be connected to each supply. Confirm that the Total Remaining Current Available on each power source below is not negative.	
+
+| External Power Source 1                          | Component Name                                               | Part Number        | Supply<br>Voltage<br>Range | Output Voltage | Absolute<br>Maximum<br>Current (mA) | Total<br>Current<br>(mA) | Unit |
+| ------------------------------------------------ | ------------------------------------------------------------ | ------------------ | -------------------------- | -------------- | ----------------------------------- | ------------------------ | ---- |
+| Power Source 1 Selection                         | Plug-in Wall Supply                                          | (full part number) | 110VAC                     | +12V           | 2500                                | 2500                     | mA   |
+|                                                  |                                                              |                    |                            |                |                                     |                          |      |
+| Power Rails Connected to External Power Source 1 | +12V supply                                                  |                    | +12V                       | 1              | 1000                                | 1000                     | mA   |
+| +3.3V regulator                                  | LM2575                                                       | +3.3V              | 1                          | 1000           | 1000                                | mA                       |
+|                                                  | Total Remaining Current Available on External Power Source 1 | 500                | mA                         |
