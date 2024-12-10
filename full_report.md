@@ -331,6 +331,11 @@ After the team board was manufactured, a significant amount of time is necessary
 
 ## **Recommendations**
 
+For future iterations of this course and subsequent classes, the team has come up with these five recommendations:
+1. Get familiar with Altium or Cadence and practice making small printed circuit boards, so when the time comes to make one for the prototype it will be less overwhelming.
+2. Do thorough research into component datasheets during the selection process to understand how the component works and how to use it.
+3. 
+
 ## **Appendix A: Team Organization:**
 
 ### **Communication Channels & Procedures**
