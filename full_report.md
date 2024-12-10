@@ -321,6 +321,9 @@ Additionally, the system’s display and communication features, the OLED screen
 ## **System Verification Table**
 <img width="553" alt="image" src="https://github.com/user-attachments/assets/d3ec9b97-e81b-4f0a-9130-6db59561ca3e">
 
+## **Lessons Learned**
+
+## **Recommendations**
 
 ## **Appendix A: Team Organization:**
 
