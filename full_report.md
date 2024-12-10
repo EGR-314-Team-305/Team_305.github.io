@@ -299,15 +299,24 @@ If the team were to make a software version 2.0, some changes and improvements w
 
 ## **Lessons Learned**
 
-The team learned to choose components that have informative datasheets. During the component selection process / design it is extremely important that you learn everything possible about your component and its functions and a big part of being able to do that is having a lengthy datasheet. 
+The team learned to choose components that have informative datasheets. During the component selection process / design it is extremely important that you learn everything possible about your component and its functions and a big part of being able to do that is having a lengthy datasheet.
+
 The team learned about the importance of checking compatibility between the microcontroller and the software used to program said microcontroller. In our case we used MCC classic all throughout the ICC’s but had to learn to use MCC melody which had a whole new interface. This occurred due to a compatibility issue between our Microcontroller, the MCC classic. 
+
 We also learned to leave at least three weeks worth of class time before the innovation showcase and final checkoff verification so that you can debug your system. It takes a lot of time and effort to get each subsystem to communicate and work together so having that extra time is crucial. The team did a good job staying on track and we gave ourselves 2 weeks of class time to debug and even then we finished on exactly the last day. 
+
 The team learned when choosing your chip, choose a package that is surface mounted and has splayed out legs. This will make soldering a whole lot easier and the IC will most likely be bigger thus will make it easier to handle.
+
 The team also learned how to solder using solder paste and the oven. More specifically the team soldered the smaller components such as sensors, resistors, and capacitors. Going this route is the safest option as there is a less likely chance that you messed up the solder job, are grounding components, and leads to less traces being ripped in the event of a mistake. 
+
 The team also learned how the UART communicates with the ESP32 and how the ESP 32 communicates with the MQTT server. The team learned that it is important to get the first part working and then sequentially do the code for the next part because the communication starts from the UART to ESP32 module. 
+
 The team also learned about compatibility between sensors and serial communication. Unbeknownst to the team even though all sensors may run on I2C they may operate at different frequencies. If this is the case then the sensors may not even function properly as their frequencies are offset by a certain amount of hertz. 
+
 When reviewing the datasheets, understanding why different values of resistors, inductors, capacitors are used, as well as following provided equations can preempt many issues in the debugging process.
+
 When updating the code in MPlab and working with I2C, turning off and turning back on the power supply could be useful when trying to get a signal in the oscilloscope. This occurs as you are restarting the communication lines and allow them sync backup which allows for those signals to show up perfectly on the oscilloscope. 
+
 When ordering components, especially small and potentially difficult to solder ones, it is important to order more than necessary in the case that the parts break or fail. Having more than enough is important as multiple prototypes are developed.
 
 ## **Recommendations**
